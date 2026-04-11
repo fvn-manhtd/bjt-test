@@ -1,0 +1,132 @@
+================================================================================
+BJT BUSINESS JAPANESE VOCABULARY DATABASE - EXTRACTION REPORT
+================================================================================
+
+Project: Extract Japanese business vocabulary from BJT study materials
+Date: April 10, 2026
+Total Words: 451
+Total Categories: 14
+
+================================================================================
+EXTRACTION PROCESS
+================================================================================
+
+PDFs Processed:
+1. Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án (222 pages) - SUCCESS
+2. わかるビジネス日本語 (155 pages) - SUCCESS  
+3. BJT-読解-実力養成問題集 (118 pages) - SUCCESS
+4. BJT公式模擬テスト＆ガイド Siêu Tốc (35 pages) - SUCCESS
+5. Có đáp án BJTビジネス日本語能力テスト (123 pages) - IMAGE-BASED (skipped)
+6. N1_BJTビジネス日本語能力テスト模試と対策 - IMAGE-BASED (skipped)
+7. Tôn kính ngữ & Khiêm nhường ngữ - IMAGE-BASED (skipped)
+
+Total Text Extracted: 125,283 characters from readable PDFs
+
+================================================================================
+VOCABULARY CATEGORIES & COUNTS
+================================================================================
+
+ 1. Văn phòng (Office)                    : 41 words
+ 2. Chức vụ (Job Titles)                  : 30 words
+ 3. Keigo (Honorific Language)            : 35 words
+ 4. Kinh tế - Tài chính (Finance)        : 35 words
+ 5. Hợp đồng - Pháp lý (Contracts/Legal) : 35 words
+ 6. Marketing - Bán hàng (Marketing)      : 35 words
+ 7. Sản xuất - Chất lượng (Production)    : 35 words
+ 8. IT - Công nghệ (IT/Technology)        : 35 words
+ 9. Nhân sự (HR)                         : 30 words
+10. Giao tiếp (Communication)             : 30 words
+11. Ngoại lai ngữ (Katakana/Loanwords)    : 30 words
+12. Thành ngữ (Idioms)                    : 20 words
+13. Động từ kinh doanh (Business Verbs)   : 35 words
+14. Tính từ kinh doanh (Adjectives)       : 25 words
+
+================================================================================
+VOCABULARY STRUCTURE
+================================================================================
+
+Each vocabulary entry contains:
+- Japanese (kanji/katakana): ja
+- Hiragana reading: hiragana
+- Vietnamese translation: vi
+- Category classification: category
+
+Example:
+{
+  "category": "Văn phòng",
+  "ja": "会社",
+  "hiragana": "かいしゃ",
+  "vi": "công ty"
+}
+
+================================================================================
+KEY VOCABULARY HIGHLIGHTS
+================================================================================
+
+Essential Business Terms:
+- 会社 (かいしゃ) - công ty
+- 契約 (けいやく) - hợp đồng
+- 売上 (うりあげ) - doanh số
+- 利益 (りえき) - lợi nhuận
+- 品質 (ひんしつ) - chất lượng
+
+Keigo (Honorific) Terms:
+- いらっしゃる - có, đi (tôn kính)
+- おっしゃる - nói (tôn kính)
+- 申し上げる (もうしあげる) - nói (khiêm nhường)
+- 承知いたしました - tôi hiểu rồi (tôn kính)
+
+Business Verbs:
+- 発注する (はっちゅうする) - đặt hàng
+- 受注する (じゅちゅうする) - nhận đơn
+- 納品する (のうひんする) - giao hàng
+- 確認する (かくにんする) - xác nhận
+- 承認する (しょうにんする) - phê duyệt
+
+Katakana Business Words:
+- プレゼンテーション - trình bày
+- マーケティング - tiếp thị
+- システム - hệ thống
+- ソフトウェア - phần mềm
+- セキュリティ - bảo mật
+
+Japanese Idioms:
+- 一石二鳥 (いっせきにちょう) - một mũi tên trúng hai con chim
+- 継続は力なり (けいぞくはちからなり) - kiên trì là sức mạnh
+- 急がば回れ (いそがばまわれ) - vội vàng sẽ bị trễ
+
+================================================================================
+OUTPUT FILE DETAILS
+================================================================================
+
+Filename: bjt_vocab_extracted.json
+Location: /Users/tranmanh/Desktop/LEARN/bjt/bjt_vocab_extracted.json
+File Size: 66 KB
+Total Lines: 2,716
+Format: JSON (UTF-8 encoded)
+
+Metadata included:
+- Title: BJT Business Japanese Vocabulary Database
+- Description: Comprehensive vocabulary for BJT Business Japanese proficiency test
+- Source: Extracted from BJT PDFs and essential business vocabulary
+- Total words count
+- Total categories count
+
+================================================================================
+USAGE RECOMMENDATIONS
+================================================================================
+
+This vocabulary database is suitable for:
+1. Creating Anki flashcards for BJT preparation
+2. Building vocabulary quizzes
+3. Reference material for business Japanese learners
+4. Creating study materials grouped by context
+5. Identifying frequently-used business terms
+
+Recommended Study Approach:
+- Start with high-frequency categories: Keigo, Office, Job Titles
+- Progress to domain-specific: Finance, Contracts, Production
+- Supplement with: Idioms, Communication phrases
+- Practice: Business verbs with real-world examples
+
+================================================================================

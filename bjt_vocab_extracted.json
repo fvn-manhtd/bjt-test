@@ -1,0 +1,5939 @@
+{
+  "metadata": {
+    "title": "BJT Business Japanese Vocabulary Database",
+    "description": "Comprehensive vocabulary for BJT Business Japanese proficiency test",
+    "total_words": 988,
+    "total_categories": 20,
+    "source": "Extracted from BJT PDFs and essential business vocabulary"
+  },
+  "vocabulary": [
+    {
+      "category": "Văn phòng",
+      "ja": "会社",
+      "hiragana": "かいしゃ",
+      "vi": "công ty"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "オフィス",
+      "hiragana": "おふぃす",
+      "vi": "văn phòng"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "部署",
+      "hiragana": "ぶしょ",
+      "vi": "bộ phận"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "事務所",
+      "hiragana": "じむしょ",
+      "vi": "cơ quan"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "打ち合わせ",
+      "hiragana": "うちあわせ",
+      "vi": "cuộc họp, trao đổi"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "会議",
+      "hiragana": "かいぎ",
+      "vi": "cuộc hội nghị"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "会議室",
+      "hiragana": "かいぎしつ",
+      "vi": "phòng họp"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "机",
+      "hiragana": "つくえ",
+      "vi": "bàn làm việc"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "椅子",
+      "hiragana": "いす",
+      "vi": "ghế"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "電話",
+      "hiragana": "でんわ",
+      "vi": "điện thoại"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "ファックス",
+      "hiragana": "ふぁっくす",
+      "vi": "fax"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "メール",
+      "hiragana": "めーる",
+      "vi": "email"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "パソコン",
+      "hiragana": "ぱそこん",
+      "vi": "máy tính"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "コピー機",
+      "hiragana": "こぴーき",
+      "vi": "máy photocopy"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "プリンタ",
+      "hiragana": "ぷりんた",
+      "vi": "máy in"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "書類",
+      "hiragana": "しょるい",
+      "vi": "tài liệu"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "ファイル",
+      "hiragana": "ふぁいる",
+      "vi": "tập tin"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "フォルダ",
+      "hiragana": "ふぉるだ",
+      "vi": "thư mục"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "受付",
+      "hiragana": "うけつけ",
+      "vi": "lễ tân"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "警備",
+      "hiragana": "けいび",
+      "vi": "bảo vệ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "清掃",
+      "hiragana": "せいそう",
+      "vi": "vệ sinh"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "照明",
+      "hiragana": "しょうめい",
+      "vi": "đèn chiếu sáng"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "エアコン",
+      "hiragana": "えあこん",
+      "vi": "máy điều hòa"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "空気",
+      "hiragana": "くうき",
+      "vi": "không khí"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "窓",
+      "hiragana": "まど",
+      "vi": "cửa sổ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "ドア",
+      "hiragana": "どあ",
+      "vi": "cửa"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "掲示板",
+      "hiragana": "けいじばん",
+      "vi": "bảng thông báo"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "社報",
+      "hiragana": "しゃほう",
+      "vi": "báo công ty"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "通知",
+      "hiragana": "つうち",
+      "vi": "thông báo"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "営業時間",
+      "hiragana": "えいぎょうじかん",
+      "vi": "giờ kinh doanh"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "部門",
+      "hiragana": "ぶもん",
+      "vi": "phòng ban"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "階",
+      "hiragana": "かい",
+      "vi": "tầng"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "建物",
+      "hiragana": "たてもの",
+      "vi": "tòa nhà"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "フロア",
+      "hiragana": "ふろあ",
+      "vi": "sàn"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "休憩室",
+      "hiragana": "きゅうけいしつ",
+      "vi": "phòng nghỉ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "食堂",
+      "hiragana": "しょくどう",
+      "vi": "căn tin"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "トイレ",
+      "hiragana": "といれ",
+      "vi": "nhà vệ sinh"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "エレベータ",
+      "hiragana": "えれべーた",
+      "vi": "thang máy"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "階段",
+      "hiragana": "かいだん",
+      "vi": "cầu thang"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "玄関",
+      "hiragana": "げんかん",
+      "vi": "lối vào"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "通路",
+      "hiragana": "つうろ",
+      "vi": "hành lang"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "社長",
+      "hiragana": "しゃちょう",
+      "vi": "tổng giám đốc"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "会長",
+      "hiragana": "かいちょう",
+      "vi": "chủ tịch"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "副社長",
+      "hiragana": "ふくしゃちょう",
+      "vi": "phó tổng giám đốc"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "常務取締役",
+      "hiragana": "じょうむとりしまりやく",
+      "vi": "giám đốc thường vụ"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "部長",
+      "hiragana": "ぶちょう",
+      "vi": "trưởng phòng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "課長",
+      "hiragana": "かちょう",
+      "vi": "trưởng bộ"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "係長",
+      "hiragana": "かかりちょう",
+      "vi": "trưởng nhóm"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "主任",
+      "hiragana": "しゅにん",
+      "vi": "người chỉ đạo"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "マネージャー",
+      "hiragana": "まねーじゃー",
+      "vi": "quản lý"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業員",
+      "hiragana": "えいぎょういん",
+      "vi": "nhân viên bán hàng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業所長",
+      "hiragana": "えいぎょうしょちょう",
+      "vi": "trưởng chi nhánh"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "企画員",
+      "hiragana": "きかくいん",
+      "vi": "nhân viên lập kế hoạch"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "事務員",
+      "hiragana": "じむいん",
+      "vi": "nhân viên hành chính"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "秘書",
+      "hiragana": "ひしょ",
+      "vi": "thư ký"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業",
+      "hiragana": "えいぎょう",
+      "vi": "bán hàng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "企画",
+      "hiragana": "きかく",
+      "vi": "lập kế hoạch"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "事務",
+      "hiragana": "じむ",
+      "vi": "hành chính"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "会計",
+      "hiragana": "かいけい",
+      "vi": "kế toán"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "人事",
+      "hiragana": "じんじ",
+      "vi": "nhân sự"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "総務",
+      "hiragana": "そうむ",
+      "vi": "tổng vụ"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業部長",
+      "hiragana": "えいぎょうぶちょう",
+      "vi": "trưởng phòng bán hàng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業課長",
+      "hiragana": "えいぎょうかちょう",
+      "vi": "trưởng bộ bán hàng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "取締役",
+      "hiragana": "とりしまりやく",
+      "vi": "giám đốc"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "監査役",
+      "hiragana": "かんさやく",
+      "vi": "kiểm toán viên"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "リーダー",
+      "hiragana": "りーだー",
+      "vi": "lãnh đạo"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "店長",
+      "hiragana": "てんちょう",
+      "vi": "quản lý cửa hàng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "工場長",
+      "hiragana": "こうじょうちょう",
+      "vi": "giám đốc nhà máy"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業本部長",
+      "hiragana": "えいぎょうほんぶちょう",
+      "vi": "trưởng bộ kinh doanh"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "ディレクター",
+      "hiragana": "でぃれくたー",
+      "vi": "giám đốc"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "コーディネーター",
+      "hiragana": "こーでぃねーたー",
+      "vi": "điều phối viên"
+    },
+    {
+      "category": "Keigo",
+      "ja": "いらっしゃる",
+      "hiragana": "いらっしゃる",
+      "vi": "có, đi (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "おっしゃる",
+      "hiragana": "おっしゃる",
+      "vi": "nói (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "召し上がる",
+      "hiragana": "めしあがる",
+      "vi": "ăn (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご覧になる",
+      "hiragana": "ごらんになる",
+      "vi": "xem (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "なさる",
+      "hiragana": "なさる",
+      "vi": "làm (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "申し上げる",
+      "hiragana": "もうしあげる",
+      "vi": "nói (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "いただく",
+      "hiragana": "いただく",
+      "vi": "nhận (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "申す",
+      "hiragana": "もうす",
+      "vi": "gọi tên (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "勤める",
+      "hiragana": "つとめる",
+      "vi": "làm việc (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お忙しい",
+      "hiragana": "おいそがしい",
+      "vi": "bận rộn (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お体",
+      "hiragana": "おからだ",
+      "vi": "thân thể (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご家族",
+      "hiragana": "ごかぞく",
+      "vi": "gia đình (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "申し訳ございません",
+      "hiragana": "もうしわけございません",
+      "vi": "rất xin lỗi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お詫びいたします",
+      "hiragana": "おわびいたします",
+      "vi": "tôi xin lỗi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お問い合わせ",
+      "hiragana": "おといあわせ",
+      "vi": "liên lạc (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご質問",
+      "hiragana": "ごしつもん",
+      "vi": "câu hỏi (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご意見",
+      "hiragana": "ごいけん",
+      "vi": "ý kiến (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご提案",
+      "hiragana": "ごていあん",
+      "vi": "đề xuất (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご報告",
+      "hiragana": "ごほうこく",
+      "vi": "báo cáo (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご連絡",
+      "hiragana": "ごれんらく",
+      "vi": "liên lạc (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "かしこまりました",
+      "hiragana": "かしこまりました",
+      "vi": "tôi hiểu rồi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "承知いたしました",
+      "hiragana": "しょうちいたしました",
+      "vi": "tôi hiểu rồi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "失礼します",
+      "hiragana": "しつれいします",
+      "vi": "xin lỗi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "恐れ入ります",
+      "hiragana": "おそれいります",
+      "vi": "tôi xin lỗi"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お世話になっております",
+      "hiragana": "おせわになっております",
+      "vi": "cảm ơn lâu nay"
+    },
+    {
+      "category": "Keigo",
+      "ja": "よろしくお願いします",
+      "hiragana": "よろしくおねがいします",
+      "vi": "xin vui lòng"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お手数ですが",
+      "hiragana": "おてすうですが",
+      "vi": "phiền bạn"
+    },
+    {
+      "category": "Keigo",
+      "ja": "いかがでしょうか",
+      "hiragana": "いかがでしょうか",
+      "vi": "thế nào đây"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご都合がつきましたら",
+      "hiragana": "ごつごうがつきましたら",
+      "vi": "khi nào thuận tiện"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご不便をおかけします",
+      "hiragana": "ごふべんをおかけします",
+      "vi": "gây bất tiện"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お気をつけください",
+      "hiragana": "おきをつけください",
+      "vi": "xin cẩn thận"
+    },
+    {
+      "category": "Keigo",
+      "ja": "させていただきます",
+      "hiragana": "させていただきます",
+      "vi": "xin được phép"
+    },
+    {
+      "category": "Keigo",
+      "ja": "いかがですか",
+      "hiragana": "いかがですか",
+      "vi": "thế nào"
+    },
+    {
+      "category": "Keigo",
+      "ja": "本当にありがとう",
+      "hiragana": "ほんとうにありがとう",
+      "vi": "cảm ơn rất nhiều"
+    },
+    {
+      "category": "Keigo",
+      "ja": "また明日",
+      "hiragana": "またあした",
+      "vi": "gặp lại ngày mai"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "売上",
+      "hiragana": "うりあげ",
+      "vi": "doanh số"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "売上高",
+      "hiragana": "うりあげだか",
+      "vi": "doanh thu"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "収入",
+      "hiragana": "しゅうにゅう",
+      "vi": "thu nhập"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "利益",
+      "hiragana": "りえき",
+      "vi": "lợi nhuận"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "利益率",
+      "hiragana": "りえきりつ",
+      "vi": "tỷ suất lợi nhuận"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "利息",
+      "hiragana": "りそく",
+      "vi": "lãi"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "手数料",
+      "hiragana": "てすうりょう",
+      "vi": "phí"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "費用",
+      "hiragana": "ひよう",
+      "vi": "chi phí"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "経費",
+      "hiragana": "けいひ",
+      "vi": "chi phí kinh doanh"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "支出",
+      "hiragana": "ししゅつ",
+      "vi": "chi tiêu"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "損失",
+      "hiragana": "そんしつ",
+      "vi": "tổn thất"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "株価",
+      "hiragana": "かぶか",
+      "vi": "giá cổ phiếu"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "株式",
+      "hiragana": "かぶしき",
+      "vi": "cổ phiếu"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "株主",
+      "hiragana": "かぶぬし",
+      "vi": "cổ đông"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "配当金",
+      "hiragana": "はいとうきん",
+      "vi": "cổ tức"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "投資",
+      "hiragana": "とうし",
+      "vi": "đầu tư"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "投資家",
+      "hiragana": "とうしか",
+      "vi": "nhà đầu tư"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "資金",
+      "hiragana": "しきん",
+      "vi": "quỹ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "資本",
+      "hiragana": "しほん",
+      "vi": "vốn"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "融資",
+      "hiragana": "ゆうし",
+      "vi": "cấp tín dụng"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "ローン",
+      "hiragana": "ろーん",
+      "vi": "khoản vay"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "借金",
+      "hiragana": "しゃっきん",
+      "vi": "nợ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "負債",
+      "hiragana": "ふさい",
+      "vi": "nợ phải trả"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "資産",
+      "hiragana": "しさん",
+      "vi": "tài sản"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "決算",
+      "hiragana": "けっさん",
+      "vi": "quyết toán"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "決算期",
+      "hiragana": "けっさんき",
+      "vi": "kỳ quyết toán"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "監査",
+      "hiragana": "かんさ",
+      "vi": "kiểm toán"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "税金",
+      "hiragana": "ぜいきん",
+      "vi": "thuế"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "予算",
+      "hiragana": "よさん",
+      "vi": "ngân sách"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "決済",
+      "hiragana": "けっさい",
+      "vi": "thanh toán"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "キャッシュフロー",
+      "hiragana": "きゃっしゅふろー",
+      "vi": "dòng tiền"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "配分",
+      "hiragana": "はいぶん",
+      "vi": "phân bổ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "赤字",
+      "hiragana": "あかじ",
+      "vi": "lỗ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "黒字",
+      "hiragana": "くろじ",
+      "vi": "lãi"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "原価",
+      "hiragana": "げんか",
+      "vi": "giá vốn"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "契約",
+      "hiragana": "けいやく",
+      "vi": "hợp đồng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "契約書",
+      "hiragana": "けいやくしょ",
+      "vi": "giấy hợp đồng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "締結",
+      "hiragana": "ていけつ",
+      "vi": "ký kết"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "合意",
+      "hiragana": "ごうい",
+      "vi": "thỏa thuận"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "約款",
+      "hiragana": "やっかん",
+      "vi": "điều khoản"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "条件",
+      "hiragana": "じょうけん",
+      "vi": "điều kiện"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "条項",
+      "hiragana": "じょうこう",
+      "vi": "điều"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "解約",
+      "hiragana": "かいやく",
+      "vi": "hủy hợp đồng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "中止",
+      "hiragana": "ちゅうし",
+      "vi": "ngừng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "違約",
+      "hiragana": "いやく",
+      "vi": "vi phạm hợp đồng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "違約金",
+      "hiragana": "いやくきん",
+      "vi": "tiền phạt"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "ペナルティ",
+      "hiragana": "ぺなるてぃ",
+      "vi": "hình phạt"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "賠償",
+      "hiragana": "ばいしょう",
+      "vi": "bồi thường"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "賠償金",
+      "hiragana": "ばいしょうきん",
+      "vi": "tiền bồi thường"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "責任",
+      "hiragana": "せきにん",
+      "vi": "trách nhiệm"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "義務",
+      "hiragana": "ぎむ",
+      "vi": "nghĩa vụ"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "権利",
+      "hiragana": "けんり",
+      "vi": "quyền"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "見積書",
+      "hiragana": "みつもりしょ",
+      "vi": "hóa đơn ước tính"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "請求書",
+      "hiragana": "せいきゅうしょ",
+      "vi": "hóa đơn"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "領収書",
+      "hiragana": "りょうしゅうしょ",
+      "vi": "biên nhận"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "納品書",
+      "hiragana": "のうひんしょ",
+      "vi": "giấy giao hàng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "検収",
+      "hiragana": "けんしゅう",
+      "vi": "kiểm tra nhận"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "品質",
+      "hiragana": "ひんしつ",
+      "vi": "chất lượng"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "仕様",
+      "hiragana": "しよう",
+      "vi": "quy cách kỹ thuật"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "クレーム",
+      "hiragana": "くれーむ",
+      "vi": "khiếu nại"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "改善",
+      "hiragana": "かいぜん",
+      "vi": "cải thiện"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "保証",
+      "hiragana": "ほしょう",
+      "vi": "bảo hành"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "保証期間",
+      "hiragana": "ほしょうきかん",
+      "vi": "thời gian bảo hành"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "秘密保持",
+      "hiragana": "ひみつほじ",
+      "vi": "bảo mật"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "個人情報",
+      "hiragana": "こじんじょうほう",
+      "vi": "thông tin cá nhân"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "発効",
+      "hiragana": "はっこう",
+      "vi": "có hiệu lực"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "有効期限",
+      "hiragana": "ゆうこうきげん",
+      "vi": "thời hạn hiệu lực"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "更新",
+      "hiragana": "こうしん",
+      "vi": "gia hạn"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "解除",
+      "hiragana": "かいじょ",
+      "vi": "hủy bỏ"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "付属書",
+      "hiragana": "ふぞくしょ",
+      "vi": "phụ lục"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "マーケティング",
+      "hiragana": "まーけてぃんぐ",
+      "vi": "tiếp thị"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "営業活動",
+      "hiragana": "えいぎょうかつどう",
+      "vi": "hoạt động kinh doanh"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "販売戦略",
+      "hiragana": "はんばいせんりゃく",
+      "vi": "chiến lược bán hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "プロモーション",
+      "hiragana": "ぷろもーしょん",
+      "vi": "khuyến mãi"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "キャンペーン",
+      "hiragana": "きゃんぺーん",
+      "vi": "chiến dịch"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "広告",
+      "hiragana": "こうこく",
+      "vi": "quảng cáo"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "宣伝",
+      "hiragana": "せんでん",
+      "vi": "quảng cáo"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "ポスター",
+      "hiragana": "ぽすたー",
+      "vi": "áp phích"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "チラシ",
+      "hiragana": "ちらし",
+      "vi": "tờ rơi"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "パンフレット",
+      "hiragana": "ぱんふれっと",
+      "vi": "tài liệu quảng cáo"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "カタログ",
+      "hiragana": "かたろぐ",
+      "vi": "danh mục"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "ブランド",
+      "hiragana": "ぶらんど",
+      "vi": "thương hiệu"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "商品",
+      "hiragana": "しょうひん",
+      "vi": "sản phẩm"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "製品",
+      "hiragana": "せいひん",
+      "vi": "sản phẩm"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "新商品",
+      "hiragana": "しんしょうひん",
+      "vi": "sản phẩm mới"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "ターゲット",
+      "hiragana": "たーげっと",
+      "vi": "đối tượng mục tiêu"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "市場",
+      "hiragana": "しじょう",
+      "vi": "thị trường"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "市場占有率",
+      "hiragana": "しじょうせんゆうりつ",
+      "vi": "thị phần"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "顧客",
+      "hiragana": "こきゃく",
+      "vi": "khách hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "顧客サービス",
+      "hiragana": "こきゃくさーびす",
+      "vi": "dịch vụ khách hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "リピーター",
+      "hiragana": "りぴーたー",
+      "vi": "khách hàng lặp lại"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "営業成績",
+      "hiragana": "えいぎょうせいせき",
+      "vi": "kết quả bán hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "売上目標",
+      "hiragana": "うりあげもくひょう",
+      "vi": "mục tiêu doanh số"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "ノルマ",
+      "hiragana": "のるま",
+      "vi": "chỉ tiêu"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "取引",
+      "hiragana": "とりひき",
+      "vi": "giao dịch"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "取引先",
+      "hiragana": "とりひきさき",
+      "vi": "đối tác kinh doanh"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "展示会",
+      "hiragana": "てんじかい",
+      "vi": "triển lãm"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "セミナー",
+      "hiragana": "せみなー",
+      "vi": "hội thảo"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "プレゼン",
+      "hiragana": "ぷれぜん",
+      "vi": "trình bày"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "デモ",
+      "hiragana": "でも",
+      "vi": "trình diễn"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "顧客満足度",
+      "hiragana": "こきゃくまんぞくど",
+      "vi": "độ thỏa mãn khách"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "見込み客",
+      "hiragana": "みこみきゃく",
+      "vi": "khách hàng tiềm năng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "既存顧客",
+      "hiragana": "きそんこきゃく",
+      "vi": "khách hàng cũ"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "新規顧客",
+      "hiragana": "しんきこきゃく",
+      "vi": "khách hàng mới"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "成約率",
+      "hiragana": "せいやくりつ",
+      "vi": "tỷ lệ chốt đơn"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "製造",
+      "hiragana": "せいぞう",
+      "vi": "sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "製造業",
+      "hiragana": "せいぞうぎょう",
+      "vi": "ngành sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "生産",
+      "hiragana": "せいさん",
+      "vi": "sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "生産計画",
+      "hiragana": "せいさんけいかく",
+      "vi": "kế hoạch sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "生産能力",
+      "hiragana": "せいさんのうりょく",
+      "vi": "năng lực sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "工場",
+      "hiragana": "こうじょう",
+      "vi": "nhà máy"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "品質管理",
+      "hiragana": "ひんしつかんり",
+      "vi": "quản lý chất lượng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "品質基準",
+      "hiragana": "ひんしつきじゅん",
+      "vi": "tiêu chuẩn chất lượng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "品質保証",
+      "hiragana": "ひんしつほしょう",
+      "vi": "đảm bảo chất lượng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "不良品",
+      "hiragana": "ふりょうひん",
+      "vi": "sản phẩm lỗi"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "不良率",
+      "hiragana": "ふりょうりつ",
+      "vi": "tỷ lệ lỗi"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "欠陥",
+      "hiragana": "けっかん",
+      "vi": "khuyết tật"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "ロット",
+      "hiragana": "ろっと",
+      "vi": "lô hàng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "在庫",
+      "hiragana": "ざいこ",
+      "vi": "hàng tồn kho"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "在庫管理",
+      "hiragana": "ざいこかんり",
+      "vi": "quản lý kho"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "倉庫",
+      "hiragana": "そうこ",
+      "vi": "kho"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "機械",
+      "hiragana": "きかい",
+      "vi": "máy"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "装置",
+      "hiragana": "そうち",
+      "vi": "thiết bị"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "部品",
+      "hiragana": "ぶひん",
+      "vi": "linh kiện"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "組立",
+      "hiragana": "くみたて",
+      "vi": "lắp ráp"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "加工",
+      "hiragana": "かこう",
+      "vi": "gia công"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "成形",
+      "hiragana": "せいけい",
+      "vi": "định hình"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "溶接",
+      "hiragana": "ようせつ",
+      "vi": "hàn"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "塗装",
+      "hiragana": "とそう",
+      "vi": "sơn"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "梱包",
+      "hiragana": "こんぱく",
+      "vi": "đóng gói"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "検品",
+      "hiragana": "けんぴん",
+      "vi": "kiểm hàng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "精度",
+      "hiragana": "せいど",
+      "vi": "độ chính xác"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "メンテナンス",
+      "hiragana": "めんてなんす",
+      "vi": "bảo trì"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "故障",
+      "hiragana": "こしょう",
+      "vi": "hỏng hóc"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "修理",
+      "hiragana": "しゅうり",
+      "vi": "sửa chữa"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "生産効率",
+      "hiragana": "せいさんこうりつ",
+      "vi": "hiệu quả sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "不具合",
+      "hiragana": "ふぐあい",
+      "vi": "sự cố"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "QC",
+      "hiragana": "きゅーしー",
+      "vi": "kiểm soát chất lượng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "6S",
+      "hiragana": "ろくえす",
+      "vi": "phương pháp 6S"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "カイゼン",
+      "hiragana": "かいぜん",
+      "vi": "cải tiến"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "IT",
+      "hiragana": "あいてぃー",
+      "vi": "công nghệ thông tin"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "システム",
+      "hiragana": "しすてむ",
+      "vi": "hệ thống"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ソフトウェア",
+      "hiragana": "そふとうぇあ",
+      "vi": "phần mềm"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ハードウェア",
+      "hiragana": "はーどうぇあ",
+      "vi": "phần cứng"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "サーバ",
+      "hiragana": "さーば",
+      "vi": "máy chủ"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ネットワーク",
+      "hiragana": "ねっとわーく",
+      "vi": "mạng"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "インターネット",
+      "hiragana": "いんたーねっと",
+      "vi": "internet"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ウェブ",
+      "hiragana": "うぇぶ",
+      "vi": "web"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ホームページ",
+      "hiragana": "ほーむぺーじ",
+      "vi": "trang chủ"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "Eメール",
+      "hiragana": "いーめーる",
+      "vi": "email"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "データベース",
+      "hiragana": "でーたべーす",
+      "vi": "cơ sở dữ liệu"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "プログラミング",
+      "hiragana": "ぷろぐらみんぐ",
+      "vi": "lập trình"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "プログラム",
+      "hiragana": "ぷろぐらむ",
+      "vi": "chương trình"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "アプリケーション",
+      "hiragana": "あぷりけーしょん",
+      "vi": "ứng dụng"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "セキュリティ",
+      "hiragana": "せきゅりてぃ",
+      "vi": "bảo mật"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "パスワード",
+      "hiragana": "ぱすわーど",
+      "vi": "mật khẩu"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ログイン",
+      "hiragana": "ろぐいん",
+      "vi": "đăng nhập"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ログアウト",
+      "hiragana": "ろぐあうと",
+      "vi": "đăng xuất"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "バックアップ",
+      "hiragana": "ばっくあっぷ",
+      "vi": "sao lưu"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "アップデート",
+      "hiragana": "あっぷでーと",
+      "vi": "cập nhật"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "インストール",
+      "hiragana": "いんすとーる",
+      "vi": "cài đặt"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ウイルス",
+      "hiragana": "ういるす",
+      "vi": "virus"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "エラー",
+      "hiragana": "えらー",
+      "vi": "lỗi"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "バグ",
+      "hiragana": "ばぐ",
+      "vi": "lỗi phần mềm"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "テスト",
+      "hiragana": "てすと",
+      "vi": "kiểm tra"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "API",
+      "hiragana": "えーぴーあい",
+      "vi": "giao diện lập trình"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "クラウド",
+      "hiragana": "くらうど",
+      "vi": "đám mây"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "AI",
+      "hiragana": "えーあい",
+      "vi": "trí tuệ nhân tạo"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "データ",
+      "hiragana": "でーた",
+      "vi": "dữ liệu"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "デバッグ",
+      "hiragana": "でばっぐ",
+      "vi": "sửa lỗi"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "クライアント",
+      "hiragana": "くらいあんと",
+      "vi": "máy khách"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ブラウザ",
+      "hiragana": "ぶらうざ",
+      "vi": "trình duyệt"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "キャッシュ",
+      "hiragana": "きゃっしゅ",
+      "vi": "bộ nhớ đệm"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ユーザー",
+      "hiragana": "ゆーざー",
+      "vi": "người dùng"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "グループ",
+      "hiragana": "ぐるーぷ",
+      "vi": "nhóm"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "採用",
+      "hiragana": "さいよう",
+      "vi": "tuyển dụng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "採用試験",
+      "hiragana": "さいようしけん",
+      "vi": "kỳ thi tuyển dụng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "面接",
+      "hiragana": "めんせつ",
+      "vi": "phỏng vấn"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "新入社員",
+      "hiragana": "しんにゅうしゃいん",
+      "vi": "nhân viên mới"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "研修",
+      "hiragana": "けんしゅう",
+      "vi": "đào tạo"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "教育",
+      "hiragana": "きょういく",
+      "vi": "giáo dục"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "人事評価",
+      "hiragana": "じんじひょうか",
+      "vi": "đánh giá nhân sự"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "昇進",
+      "hiragana": "しょうしん",
+      "vi": "thăng chức"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "昇給",
+      "hiragana": "しょうきゅう",
+      "vi": "tăng lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "給与",
+      "hiragana": "きゅうよ",
+      "vi": "lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "給料",
+      "hiragana": "きゅうりょう",
+      "vi": "lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "賃金",
+      "hiragana": "ちんぎん",
+      "vi": "tiền công"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "ボーナス",
+      "hiragana": "ぼーなす",
+      "vi": "thưởng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "福利厚生",
+      "hiragana": "ふくりこうせい",
+      "vi": "phúc lợi"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "雇用契約",
+      "hiragana": "こようけいやく",
+      "vi": "hợp đồng lao động"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "就業規則",
+      "hiragana": "しゅうぎょうきそく",
+      "vi": "nội quy lao động"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "勤務",
+      "hiragana": "きんむ",
+      "vi": "công tác"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "出勤",
+      "hiragana": "しゅっきん",
+      "vi": "đi làm"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "退勤",
+      "hiragana": "たいきん",
+      "vi": "tan sở"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "勤続年数",
+      "hiragana": "きんぞくねんすう",
+      "vi": "năm làm việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "離職",
+      "hiragana": "りしょく",
+      "vi": "từ việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "退職",
+      "hiragana": "たいしょく",
+      "vi": "nghỉ hưu"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "解雇",
+      "hiragana": "かいこ",
+      "vi": "sa thải"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "休暇",
+      "hiragana": "きゅうか",
+      "vi": "nghỉ phép"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "出張",
+      "hiragana": "しゅっちょう",
+      "vi": "công tác"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "転勤",
+      "hiragana": "てんきん",
+      "vi": "điều động"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "異動",
+      "hiragana": "いどう",
+      "vi": "chuyển bộ"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "トレーニング",
+      "hiragana": "とれーにんぐ",
+      "vi": "đào tạo"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "カウンセリング",
+      "hiragana": "かうんせりんぐ",
+      "vi": "tư vấn"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "メンタルヘルス",
+      "hiragana": "めんたるへるす",
+      "vi": "sức khỏe tâm thần"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "おはようございます",
+      "hiragana": "おはようございます",
+      "vi": "chào buổi sáng"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "こんにちは",
+      "hiragana": "こんにちは",
+      "vi": "xin chào"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "こんばんは",
+      "hiragana": "こんばんは",
+      "vi": "chào buổi tối"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "おやすみなさい",
+      "hiragana": "おやすみなさい",
+      "vi": "chúc ngủ ngon"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "おつかれさまです",
+      "hiragana": "おつかれさまです",
+      "vi": "cảm ơn vì sự vất vả"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ありがとうございます",
+      "hiragana": "ありがとうございます",
+      "vi": "cảm ơn rất nhiều"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "どうも",
+      "hiragana": "どうも",
+      "vi": "cảm ơn"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "すみません",
+      "hiragana": "すみません",
+      "vi": "xin lỗi"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "失礼いたしました",
+      "hiragana": "しつれいいたしました",
+      "vi": "tôi xin lỗi"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "わかりました",
+      "hiragana": "わかりました",
+      "vi": "tôi hiểu"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "大丈夫です",
+      "hiragana": "だいじょうぶです",
+      "vi": "không sao"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "大丈夫ですか",
+      "hiragana": "だいじょうぶですか",
+      "vi": "bạn có sao không"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "いいです",
+      "hiragana": "いいです",
+      "vi": "được"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "いいえ",
+      "hiragana": "いいえ",
+      "vi": "không"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "そうですね",
+      "hiragana": "そうですね",
+      "vi": "đúng vậy"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "そうですか",
+      "hiragana": "そうですか",
+      "vi": "vậy à"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "いただきます",
+      "hiragana": "いただきます",
+      "vi": "tôi xin ăn"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ごちそうさまです",
+      "hiragana": "ごちそうさまです",
+      "vi": "cảm ơn bữa ăn"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "また明日",
+      "hiragana": "またあした",
+      "vi": "gặp lại ngày mai"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "また今度",
+      "hiragana": "またこんど",
+      "vi": "lần sau gặp"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "さようなら",
+      "hiragana": "さようなら",
+      "vi": "tạm biệt"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "頑張ってください",
+      "hiragana": "がんばってください",
+      "vi": "cố lên"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "成功を祈ります",
+      "hiragana": "せいこうをいのります",
+      "vi": "chúc bạn thành công"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お疲れ",
+      "hiragana": "おつかれ",
+      "vi": "thấy mệt"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "応援しています",
+      "hiragana": "おうえんしています",
+      "vi": "tôi ủng hộ bạn"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "チャレンジします",
+      "hiragana": "ちゃれんじします",
+      "vi": "tôi sẽ thử"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "これでいいです",
+      "hiragana": "これでいいです",
+      "vi": "vậy là được"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "もう一度お願いします",
+      "hiragana": "もういちどおねがいします",
+      "vi": "xin lặp lại"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ゆっくり話してください",
+      "hiragana": "ゆっくりはなしてください",
+      "vi": "xin nói chậm"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "わかりませんでした",
+      "hiragana": "わかりませんでした",
+      "vi": "tôi không hiểu"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "プレゼンテーション",
+      "hiragana": "ぷれぜんてーしょん",
+      "vi": "trình bày"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "コンピュータ",
+      "hiragana": "こんぴゅーた",
+      "vi": "máy tính"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "プリンター",
+      "hiragana": "ぷりんたー",
+      "vi": "máy in"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "スキャナー",
+      "hiragana": "すきゃなー",
+      "vi": "máy quét"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "モニター",
+      "hiragana": "もにたー",
+      "vi": "màn hình"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "キーボード",
+      "hiragana": "きーぼーど",
+      "vi": "bàn phím"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "マウス",
+      "hiragana": "まうす",
+      "vi": "chuột"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ドライブ",
+      "hiragana": "どらいぶ",
+      "vi": "ổ đĩa"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ケーブル",
+      "hiragana": "けーぶる",
+      "vi": "cáp"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "バッテリー",
+      "hiragana": "ばってりー",
+      "vi": "pin"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "チャージャー",
+      "hiragana": "ちゃーじゃー",
+      "vi": "sạc"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ルーター",
+      "hiragana": "るーたー",
+      "vi": "bộ định tuyến"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "モデム",
+      "hiragana": "もでむ",
+      "vi": "modem"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ウェブサイト",
+      "hiragana": "うぇぶさいと",
+      "vi": "trang web"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ドメイン",
+      "hiragana": "どめいん",
+      "vi": "tên miền"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "URL",
+      "hiragana": "ゆーあーるえる",
+      "vi": "URL"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ユーザーID",
+      "hiragana": "ゆーざーあいでぃー",
+      "vi": "tên đăng nhập"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ダウンロード",
+      "hiragana": "だうんろーど",
+      "vi": "tải xuống"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "アップロード",
+      "hiragana": "あっぷろーど",
+      "vi": "tải lên"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "バージョン",
+      "hiragana": "ばーじょん",
+      "vi": "phiên bản"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ウィンドウ",
+      "hiragana": "ういんどぅ",
+      "vi": "cửa sổ"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "デスクトップ",
+      "hiragana": "ですくとっぷ",
+      "vi": "màn hình nền"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "アイコン",
+      "hiragana": "あいこん",
+      "vi": "biểu tượng"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "リンク",
+      "hiragana": "りんく",
+      "vi": "liên kết"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "メニュー",
+      "hiragana": "めにゅー",
+      "vi": "menu"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ツールバー",
+      "hiragana": "つーるばー",
+      "vi": "thanh công cụ"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "スクロール",
+      "hiragana": "すくろーる",
+      "vi": "cuộn"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "クリック",
+      "hiragana": "くりっく",
+      "vi": "nhấp chuột"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ダブルクリック",
+      "hiragana": "だぶるくりっく",
+      "vi": "nhấp đôi"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ドラッグ",
+      "hiragana": "どらっぐ",
+      "vi": "kéo thả"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "一石二鳥",
+      "hiragana": "いっせきにちょう",
+      "vi": "một mũi tên trúng hai con chim"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "三人寄れば文殊の知恵",
+      "hiragana": "さんにんよればもんじゅのちえ",
+      "vi": "ba đầu hơn một đầu"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "継続は力なり",
+      "hiragana": "けいぞくはちからなり",
+      "vi": "kiên trì là sức mạnh"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "急がば回れ",
+      "hiragana": "いそがばまわれ",
+      "vi": "vội vàng sẽ bị trễ"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "郷に入っては郷に従え",
+      "hiragana": "ごうにいってはごうにしたがえ",
+      "vi": "khi vào xứ người phải theo đạo người"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "阿吽の呼吸",
+      "hiragana": "あうんのこきゅう",
+      "vi": "sự tương thích tuyệt vời"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "右往左往",
+      "hiragana": "うおうさおう",
+      "vi": "lúng túng"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "捲土重来",
+      "hiragana": "けんどじゅうらい",
+      "vi": "quay trở lại mạnh mẽ"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "焦眉の急",
+      "hiragana": "しょうびのきゅう",
+      "vi": "việc cấp bách"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "不言実行",
+      "hiragana": "ふげんじっこう",
+      "vi": "hành động hơn lời nói"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "粉骨砕身",
+      "hiragana": "ふんこつさいしん",
+      "vi": "hy sinh hoàn toàn"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "百年河清を待つ",
+      "hiragana": "ひゃくねんかせいをまつ",
+      "vi": "chờ đợi điều không tể có"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "大器晩成",
+      "hiragana": "たいきばんせい",
+      "vi": "những người tài đạo muộn"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "千里の道も一歩から",
+      "hiragana": "せんりのみちもいっぽから",
+      "vi": "hành trình dài bắt đầu bằng một bước"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "不屈の精神",
+      "hiragana": "ふくつのせいしん",
+      "vi": "tinh thần không khuất phục"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "力を合わせる",
+      "hiragana": "ちからをあわせる",
+      "vi": "hợp lực"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "心が燃える",
+      "hiragana": "こころがもえる",
+      "vi": "tâm huyết bốc cháy"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "七転び八起き",
+      "hiragana": "ななころびやおき",
+      "vi": "đứng dậy sau mỗi lần ngã"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "二足の草鞋を履く",
+      "hiragana": "にそくのわらじをはく",
+      "vi": "làm hai việc một lúc"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "重箱の隅をつつく",
+      "hiragana": "じゅうばこのすみをつつく",
+      "vi": "tìm lỗi trong chi tiết nhỏ"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "発注する",
+      "hiragana": "はっちゅうする",
+      "vi": "đặt hàng"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "受注する",
+      "hiragana": "じゅちゅうする",
+      "vi": "nhận đơn"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "納品する",
+      "hiragana": "のうひんする",
+      "vi": "giao hàng"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "配送する",
+      "hiragana": "はいそうする",
+      "vi": "vận chuyển"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "配達する",
+      "hiragana": "はいたつする",
+      "vi": "giao hàng"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "受け取る",
+      "hiragana": "うけとる",
+      "vi": "nhận"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "引き渡す",
+      "hiragana": "ひきわたす",
+      "vi": "bàn giao"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "達成する",
+      "hiragana": "たっせいする",
+      "vi": "hoàn thành"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "実現する",
+      "hiragana": "じつげんする",
+      "vi": "thực hiện"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "改善する",
+      "hiragana": "かいぜんする",
+      "vi": "cải thiện"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "対応する",
+      "hiragana": "たいおうする",
+      "vi": "xử lý"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "確認する",
+      "hiragana": "かくにんする",
+      "vi": "xác nhận"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "承認する",
+      "hiragana": "しょうにんする",
+      "vi": "phê duyệt"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "承諾する",
+      "hiragana": "しょうだくする",
+      "vi": "chấp thuận"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "拒否する",
+      "hiragana": "きょひする",
+      "vi": "từ chối"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "延期する",
+      "hiragana": "えんきする",
+      "vi": "hoãn lại"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "中止する",
+      "hiragana": "ちゅうしする",
+      "vi": "ngừng"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "変更する",
+      "hiragana": "へんこうする",
+      "vi": "thay đổi"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "キャンセルする",
+      "hiragana": "きゃんせるする",
+      "vi": "hủy"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "処理する",
+      "hiragana": "しょりする",
+      "vi": "xử lý"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "統計する",
+      "hiragana": "とうけいする",
+      "vi": "thống kê"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "分析する",
+      "hiragana": "ぶんせきする",
+      "vi": "phân tích"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "評価する",
+      "hiragana": "ひょうかする",
+      "vi": "đánh giá"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "改定する",
+      "hiragana": "かいていする",
+      "vi": "sửa đổi"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "調査する",
+      "hiragana": "ちょうさする",
+      "vi": "điều tra"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "検査する",
+      "hiragana": "けんさする",
+      "vi": "kiểm tra"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "監視する",
+      "hiragana": "かんしする",
+      "vi": "giám sát"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "指導する",
+      "hiragana": "しどうする",
+      "vi": "hướng dẫn"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "協力する",
+      "hiragana": "きょうりょくする",
+      "vi": "hợp tác"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "連携する",
+      "hiragana": "れんけいする",
+      "vi": "phối hợp"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "進捗する",
+      "hiragana": "しんちょくする",
+      "vi": "tiến triển"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "取り組む",
+      "hiragana": "とりくむ",
+      "vi": "cố gắng"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "成功する",
+      "hiragana": "せいこうする",
+      "vi": "thành công"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "失敗する",
+      "hiragana": "しっぱいする",
+      "vi": "thất bại"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "完了する",
+      "hiragana": "かんりょうする",
+      "vi": "hoàn tất"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "効率的な",
+      "hiragana": "こうりつてきな",
+      "vi": "hiệu quả"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "効果的な",
+      "hiragana": "こうかてきな",
+      "vi": "hiệu quả"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "適切な",
+      "hiragana": "てきせつな",
+      "vi": "phù hợp"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "適正な",
+      "hiragana": "てきせいな",
+      "vi": "đúng đắn"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "迅速な",
+      "hiragana": "じんそくな",
+      "vi": "nhanh chóng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "正確な",
+      "hiragana": "せいかくな",
+      "vi": "chính xác"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "明確な",
+      "hiragana": "めいかくな",
+      "vi": "rõ ràng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "優良な",
+      "hiragana": "ゆうりょうな",
+      "vi": "ưu việt"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "優れた",
+      "hiragana": "すぐれた",
+      "vi": "xuất sắc"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "不十分な",
+      "hiragana": "ふじゅうぶんな",
+      "vi": "chưa đủ"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "不適切な",
+      "hiragana": "ふてきせつな",
+      "vi": "không phù hợp"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "不可能な",
+      "hiragana": "ふかのうな",
+      "vi": "không thể"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "可能な",
+      "hiragana": "かのうな",
+      "vi": "có thể"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "必要な",
+      "hiragana": "ひつような",
+      "vi": "cần thiết"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "重要な",
+      "hiragana": "じゅうような",
+      "vi": "quan trọng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "緊急な",
+      "hiragana": "きんきゅうな",
+      "vi": "khẩn cấp"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "複雑な",
+      "hiragana": "ふくざつな",
+      "vi": "phức tạp"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "単純な",
+      "hiragana": "たんじゅんな",
+      "vi": "đơn giản"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "通常の",
+      "hiragana": "つうじょうの",
+      "vi": "thông thường"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "異常な",
+      "hiragana": "いじょうな",
+      "vi": "bất thường"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "重大な",
+      "hiragana": "じゅうだいな",
+      "vi": "đáng kể"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "軽微な",
+      "hiragana": "けいびな",
+      "vi": "nhẹ nhàng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "深刻な",
+      "hiragana": "しんこくな",
+      "vi": "trầm trọng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "有益な",
+      "hiragana": "ゆうえきな",
+      "vi": "có lợi"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "無益な",
+      "hiragana": "むえきな",
+      "vi": "vô ích"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "応接室",
+      "hiragana": "おうせつしつ",
+      "vi": "phòng tiếp khách"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "給湯室",
+      "hiragana": "きゅうとうしつ",
+      "vi": "phòng pha trà"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "内線",
+      "hiragana": "ないせん",
+      "vi": "điện thoại nội bộ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "外線",
+      "hiragana": "がいせん",
+      "vi": "điện thoại bên ngoài"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "名札",
+      "hiragana": "なふだ",
+      "vi": "thẻ tên"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "社員証",
+      "hiragana": "しゃいんしょう",
+      "vi": "thẻ nhân viên"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "早退",
+      "hiragana": "そうたい",
+      "vi": "về sớm"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "欠勤",
+      "hiragana": "けっきん",
+      "vi": "vắng mặt"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "遅刻",
+      "hiragana": "ちこく",
+      "vi": "đi trễ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "残業",
+      "hiragana": "ざんぎょう",
+      "vi": "làm thêm giờ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "定時",
+      "hiragana": "ていじ",
+      "vi": "giờ quy định"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "時間外",
+      "hiragana": "じかんがい",
+      "vi": "ngoài giờ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "通勤",
+      "hiragana": "つうきん",
+      "vi": "đi lại (nhà-công ty)"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "配属",
+      "hiragana": "はいぞく",
+      "vi": "phân công bộ phận"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "着任",
+      "hiragana": "ちゃくにん",
+      "vi": "nhận nhiệm vụ mới"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "赴任",
+      "hiragana": "ふにん",
+      "vi": "đi nhận nhiệm sở"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "帰任",
+      "hiragana": "きにん",
+      "vi": "quay về nhiệm sở cũ"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "出向",
+      "hiragana": "しゅっこう",
+      "vi": "biệt phái"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "派遣",
+      "hiragana": "はけん",
+      "vi": "phái cử/nhân viên phái cử"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "正社員",
+      "hiragana": "せいしゃいん",
+      "vi": "nhân viên chính thức"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "契約社員",
+      "hiragana": "けいやくしゃいん",
+      "vi": "nhân viên hợp đồng"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "臨時社員",
+      "hiragana": "りんじしゃいん",
+      "vi": "nhân viên tạm thời"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "資料",
+      "hiragana": "しりょう",
+      "vi": "tư liệu"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "原稿",
+      "hiragana": "げんこう",
+      "vi": "bản thảo"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "議事録",
+      "hiragana": "ぎじろく",
+      "vi": "biên bản họp"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "報告書",
+      "hiragana": "ほうこくしょ",
+      "vi": "báo cáo"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "企画書",
+      "hiragana": "きかくしょ",
+      "vi": "đề án"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "提案書",
+      "hiragana": "ていあんしょ",
+      "vi": "đề xuất"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "仕様書",
+      "hiragana": "しようしょ",
+      "vi": "bản đặc tả"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "回覧",
+      "hiragana": "かいらん",
+      "vi": "lưu hành/truyền tay"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "印鑑",
+      "hiragana": "いんかん",
+      "vi": "con dấu"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "捺印",
+      "hiragana": "なついん",
+      "vi": "đóng dấu"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "署名",
+      "hiragana": "しょめい",
+      "vi": "ký tên"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "決裁",
+      "hiragana": "けっさい",
+      "vi": "phê duyệt"
+    },
+    {
+      "category": "Văn phòng",
+      "ja": "承認",
+      "hiragana": "しょうにん",
+      "vi": "chấp thuận"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "顧問",
+      "hiragana": "こもん",
+      "vi": "cố vấn"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "相談役",
+      "hiragana": "そうだんやく",
+      "vi": "cố vấn cao cấp"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "執行役員",
+      "hiragana": "しっこうやくいん",
+      "vi": "giám đốc điều hành"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "次長",
+      "hiragana": "じちょう",
+      "vi": "phó trưởng phòng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "室長",
+      "hiragana": "しつちょう",
+      "vi": "trưởng phòng ban"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "所長",
+      "hiragana": "しょちょう",
+      "vi": "trưởng chi nhánh/viện"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "支店長",
+      "hiragana": "してんちょう",
+      "vi": "trưởng chi nhánh"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "営業担当",
+      "hiragana": "えいぎょうたんとう",
+      "vi": "phụ trách kinh doanh"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "経理担当",
+      "hiragana": "けいりたんとう",
+      "vi": "phụ trách kế toán"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "広報",
+      "hiragana": "こうほう",
+      "vi": "quan hệ công chúng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "法務",
+      "hiragana": "ほうむ",
+      "vi": "pháp chế"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "研究員",
+      "hiragana": "けんきゅういん",
+      "vi": "nghiên cứu viên"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "収益",
+      "hiragana": "しゅうえき",
+      "vi": "doanh thu/thu nhập"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "営業利益",
+      "hiragana": "えいぎょうりえき",
+      "vi": "lợi nhuận kinh doanh"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "経常利益",
+      "hiragana": "けいじょうりえき",
+      "vi": "lợi nhuận thường xuyên"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "純利益",
+      "hiragana": "じゅんりえき",
+      "vi": "lợi nhuận ròng"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "消費税",
+      "hiragana": "しょうひぜい",
+      "vi": "thuế tiêu dùng"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "所得税",
+      "hiragana": "しょとくぜい",
+      "vi": "thuế thu nhập"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "法人税",
+      "hiragana": "ほうじんぜい",
+      "vi": "thuế doanh nghiệp"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "為替",
+      "hiragana": "かわせ",
+      "vi": "tỷ giá hối đoái"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "円高",
+      "hiragana": "えんだか",
+      "vi": "đồng yên tăng giá"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "円安",
+      "hiragana": "えんやす",
+      "vi": "đồng yên giảm giá"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "景気",
+      "hiragana": "けいき",
+      "vi": "tình hình kinh tế"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "不景気",
+      "hiragana": "ふけいき",
+      "vi": "suy thoái"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "好景気",
+      "hiragana": "こうけいき",
+      "vi": "kinh tế phát triển"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "インフレ",
+      "hiragana": "いんふれ",
+      "vi": "lạm phát"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "デフレ",
+      "hiragana": "でふれ",
+      "vi": "giảm phát"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "金利",
+      "hiragana": "きんり",
+      "vi": "lãi suất"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "出資",
+      "hiragana": "しゅっし",
+      "vi": "góp vốn"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "配当",
+      "hiragana": "はいとう",
+      "vi": "cổ tức"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "増資",
+      "hiragana": "ぞうし",
+      "vi": "tăng vốn"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "減資",
+      "hiragana": "げんし",
+      "vi": "giảm vốn"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "自己資本",
+      "hiragana": "じこしほん",
+      "vi": "vốn chủ sở hữu"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "粗利",
+      "hiragana": "あらり",
+      "vi": "lợi nhuận gộp"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "固定費",
+      "hiragana": "こていひ",
+      "vi": "chi phí cố định"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "変動費",
+      "hiragana": "へんどうひ",
+      "vi": "chi phí biến đổi"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "償却",
+      "hiragana": "しょうきゃく",
+      "vi": "khấu hao"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "貸借対照表",
+      "hiragana": "たいしゃくたいしょうひょう",
+      "vi": "bảng cân đối kế toán"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "損益計算書",
+      "hiragana": "そんえきけいさんしょ",
+      "vi": "báo cáo kết quả kinh doanh"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "四半期",
+      "hiragana": "しはんき",
+      "vi": "quý (3 tháng)"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "年度",
+      "hiragana": "ねんど",
+      "vi": "năm tài chính"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "上半期",
+      "hiragana": "かみはんき",
+      "vi": "nửa đầu năm"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "下半期",
+      "hiragana": "しもはんき",
+      "vi": "nửa cuối năm"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "覚書",
+      "hiragana": "おぼえがき",
+      "vi": "biên bản ghi nhớ"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "規約",
+      "hiragana": "きやく",
+      "vi": "quy ước/điều khoản"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "規定",
+      "hiragana": "きてい",
+      "vi": "quy định"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "免責",
+      "hiragana": "めんせき",
+      "vi": "miễn trách"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "損害賠償",
+      "hiragana": "そんがいばいしょう",
+      "vi": "bồi thường thiệt hại"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "知的財産",
+      "hiragana": "ちてきざいさん",
+      "vi": "sở hữu trí tuệ"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "特許",
+      "hiragana": "とっきょ",
+      "vi": "bằng sáng chế"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "商標",
+      "hiragana": "しょうひょう",
+      "vi": "nhãn hiệu"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "著作権",
+      "hiragana": "ちょさくけん",
+      "vi": "bản quyền"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "守秘義務",
+      "hiragana": "しゅひぎむ",
+      "vi": "nghĩa vụ bảo mật"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "訴訟",
+      "hiragana": "そしょう",
+      "vi": "kiện tụng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "得意先",
+      "hiragana": "とくいさき",
+      "vi": "khách hàng quen"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "競合",
+      "hiragana": "きょうごう",
+      "vi": "đối thủ cạnh tranh"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "市場調査",
+      "hiragana": "しじょうちょうさ",
+      "vi": "nghiên cứu thị trường"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "販売促進",
+      "hiragana": "はんばいそくしん",
+      "vi": "xúc tiến bán hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "販路",
+      "hiragana": "はんろ",
+      "vi": "kênh bán hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "代理店",
+      "hiragana": "だいりてん",
+      "vi": "đại lý"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "卸売",
+      "hiragana": "おろしうり",
+      "vi": "bán buôn"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "小売",
+      "hiragana": "こうり",
+      "vi": "bán lẻ"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "定価",
+      "hiragana": "ていか",
+      "vi": "giá niêm yết"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "値引き",
+      "hiragana": "ねびき",
+      "vi": "giảm giá"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "割引",
+      "hiragana": "わりびき",
+      "vi": "chiết khấu"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "特売",
+      "hiragana": "とくばい",
+      "vi": "khuyến mãi đặc biệt"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "受注",
+      "hiragana": "じゅちゅう",
+      "vi": "nhận đơn hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "発注",
+      "hiragana": "はっちゅう",
+      "vi": "đặt hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "返品",
+      "hiragana": "へんぴん",
+      "vi": "trả hàng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "アフターサービス",
+      "hiragana": "あふたーさーびす",
+      "vi": "dịch vụ hậu mãi"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "見本市",
+      "hiragana": "みほんいち",
+      "vi": "hội chợ triển lãm"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "需要",
+      "hiragana": "じゅよう",
+      "vi": "nhu cầu"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "供給",
+      "hiragana": "きょうきゅう",
+      "vi": "cung cấp"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "生産ライン",
+      "hiragana": "せいさんらいん",
+      "vi": "dây chuyền sản xuất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "量産",
+      "hiragana": "りょうさん",
+      "vi": "sản xuất hàng loạt"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "試作品",
+      "hiragana": "しさくひん",
+      "vi": "sản phẩm mẫu"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "完成品",
+      "hiragana": "かんせいひん",
+      "vi": "thành phẩm"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "半製品",
+      "hiragana": "はんせいひん",
+      "vi": "bán thành phẩm"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "原材料",
+      "hiragana": "げんざいりょう",
+      "vi": "nguyên vật liệu"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "組み立て",
+      "hiragana": "くみたて",
+      "vi": "lắp ráp"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "検査",
+      "hiragana": "けんさ",
+      "vi": "kiểm tra"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "歩留まり",
+      "hiragana": "ぶどまり",
+      "vi": "tỷ lệ thành phẩm đạt"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "リコール",
+      "hiragana": "りこーる",
+      "vi": "thu hồi sản phẩm"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "効率",
+      "hiragana": "こうりつ",
+      "vi": "hiệu suất"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "稼働率",
+      "hiragana": "かどうりつ",
+      "vi": "tỷ lệ hoạt động"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "設備",
+      "hiragana": "せつび",
+      "vi": "thiết bị"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "安全基準",
+      "hiragana": "あんぜんきじゅん",
+      "vi": "tiêu chuẩn an toàn"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "ISO",
+      "hiragana": "あいえすおー",
+      "vi": "tiêu chuẩn ISO"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "型番",
+      "hiragana": "かたばん",
+      "vi": "mã sản phẩm"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "仕入れ",
+      "hiragana": "しいれ",
+      "vi": "nhập hàng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "棚卸し",
+      "hiragana": "たなおろし",
+      "vi": "kiểm kê"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "求人",
+      "hiragana": "きゅうじん",
+      "vi": "tuyển dụng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "応募",
+      "hiragana": "おうぼ",
+      "vi": "ứng tuyển"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "履歴書",
+      "hiragana": "りれきしょ",
+      "vi": "hồ sơ xin việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "職務経歴書",
+      "hiragana": "しょくむけいれきしょ",
+      "vi": "lý lịch công việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "内定",
+      "hiragana": "ないてい",
+      "vi": "nội định tuyển dụng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "試用期間",
+      "hiragana": "しようきかん",
+      "vi": "thời gian thử việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "本採用",
+      "hiragana": "ほんさいよう",
+      "vi": "tuyển dụng chính thức"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "降格",
+      "hiragana": "こうかく",
+      "vi": "giáng chức"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "減給",
+      "hiragana": "げんきゅう",
+      "vi": "giảm lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "賞与",
+      "hiragana": "しょうよ",
+      "vi": "tiền thưởng"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "退職金",
+      "hiragana": "たいしょくきん",
+      "vi": "trợ cấp thôi việc"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "年金",
+      "hiragana": "ねんきん",
+      "vi": "lương hưu"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "社会保険",
+      "hiragana": "しゃかいほけん",
+      "vi": "bảo hiểm xã hội"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "健康保険",
+      "hiragana": "けんこうほけん",
+      "vi": "bảo hiểm y tế"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "雇用保険",
+      "hiragana": "こようほけん",
+      "vi": "bảo hiểm thất nghiệp"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "有給休暇",
+      "hiragana": "ゆうきゅうきゅうか",
+      "vi": "nghỉ phép có lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "産休",
+      "hiragana": "さんきゅう",
+      "vi": "nghỉ thai sản"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "育休",
+      "hiragana": "いくきゅう",
+      "vi": "nghỉ chăm con"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "定年",
+      "hiragana": "ていねん",
+      "vi": "tuổi nghỉ hưu"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "辞職",
+      "hiragana": "じしょく",
+      "vi": "từ chức"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "目標管理",
+      "hiragana": "もくひょうかんり",
+      "vi": "quản lý mục tiêu"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "OJT",
+      "hiragana": "おーじぇーてぃー",
+      "vi": "đào tạo tại chỗ"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご無沙汰しております",
+      "hiragana": "ごぶさたしております",
+      "vi": "lâu rồi không liên lạc"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お忙しいところ恐れ入りますが",
+      "hiragana": "おいそがしいところおそれいりますが",
+      "vi": "xin lỗi vì làm phiền lúc bận"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご検討ください",
+      "hiragana": "ごけんとうください",
+      "vi": "xin hãy xem xét"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご確認ください",
+      "hiragana": "ごかくにんください",
+      "vi": "xin hãy xác nhận"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お疲れ様です",
+      "hiragana": "おつかれさまです",
+      "vi": "anh/chị vất vả rồi"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご苦労様です",
+      "hiragana": "ごくろうさまです",
+      "vi": "vất vả quá (nói với cấp dưới)"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "失礼いたします",
+      "hiragana": "しつれいいたします",
+      "vi": "xin phép"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "よろしくお願いいたします",
+      "hiragana": "よろしくおねがいいたします",
+      "vi": "mong được giúp đỡ"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お先に失礼します",
+      "hiragana": "おさきにしつれいします",
+      "vi": "xin phép về trước"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご迷惑をおかけします",
+      "hiragana": "ごめいわくをおかけします",
+      "vi": "xin lỗi đã gây phiền"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お待たせいたしました",
+      "hiragana": "おまたせいたしました",
+      "vi": "xin lỗi đã để chờ"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "差し支えなければ",
+      "hiragana": "さしつかえなければ",
+      "vi": "nếu không phiền"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "恐れ入りますが",
+      "hiragana": "おそれいりますが",
+      "vi": "xin lỗi nhưng..."
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご了承ください",
+      "hiragana": "ごりょうしょうください",
+      "vi": "xin thông cảm"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お気をつけて",
+      "hiragana": "おきをつけて",
+      "vi": "hãy cẩn thận nhé"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご遠慮なく",
+      "hiragana": "ごえんりょなく",
+      "vi": "đừng ngại"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "おかげさまで",
+      "hiragana": "おかげさまで",
+      "vi": "nhờ ơn (anh/chị)"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "とんでもございません",
+      "hiragana": "とんでもございません",
+      "vi": "không dám đâu ạ"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "お邪魔します",
+      "hiragana": "おじゃまします",
+      "vi": "xin phép làm phiền"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ごもっともです",
+      "hiragana": "ごもっともです",
+      "vi": "hoàn toàn đúng ạ"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご査収ください",
+      "hiragana": "ごさしゅうください",
+      "vi": "xin hãy kiểm nhận"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "コンプライアンス",
+      "hiragana": "こんぷらいあんす",
+      "vi": "tuân thủ pháp luật"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ガバナンス",
+      "hiragana": "がばなんす",
+      "vi": "quản trị doanh nghiệp"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "アウトソーシング",
+      "hiragana": "あうとそーしんぐ",
+      "vi": "thuê ngoài"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "コスト",
+      "hiragana": "こすと",
+      "vi": "chi phí"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "リスク",
+      "hiragana": "りすく",
+      "vi": "rủi ro"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "マネジメント",
+      "hiragana": "まねじめんと",
+      "vi": "quản lý"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "リーダーシップ",
+      "hiragana": "りーだーしっぷ",
+      "vi": "lãnh đạo"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "フィードバック",
+      "hiragana": "ふぃーどばっく",
+      "vi": "phản hồi"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "スケジュール",
+      "hiragana": "すけじゅーる",
+      "vi": "lịch trình"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "アジェンダ",
+      "hiragana": "あじぇんだ",
+      "vi": "chương trình nghị sự"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ミーティング",
+      "hiragana": "みーてぃんぐ",
+      "vi": "cuộc họp"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "プロジェクト",
+      "hiragana": "ぷろじぇくと",
+      "vi": "dự án"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "タスク",
+      "hiragana": "たすく",
+      "vi": "nhiệm vụ"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "デッドライン",
+      "hiragana": "でっどらいん",
+      "vi": "hạn chót"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "プライオリティ",
+      "hiragana": "ぷらいおりてぃ",
+      "vi": "ưu tiên"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "コミュニケーション",
+      "hiragana": "こみゅにけーしょん",
+      "vi": "giao tiếp"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ネットワーキング",
+      "hiragana": "ねっとわーきんぐ",
+      "vi": "kết nối mạng lưới"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "インセンティブ",
+      "hiragana": "いんせんてぃぶ",
+      "vi": "khuyến khích/thưởng"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "キャリア",
+      "hiragana": "きゃりあ",
+      "vi": "sự nghiệp"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "パフォーマンス",
+      "hiragana": "ぱふぉーまんす",
+      "vi": "hiệu suất"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "イノベーション",
+      "hiragana": "いのべーしょん",
+      "vi": "đổi mới"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ロジスティクス",
+      "hiragana": "ろじすてぃくす",
+      "vi": "hậu cần"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "サプライチェーン",
+      "hiragana": "さぷらいちぇーん",
+      "vi": "chuỗi cung ứng"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "メリット",
+      "hiragana": "めりっと",
+      "vi": "ưu điểm"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "デメリット",
+      "hiragana": "でめりっと",
+      "vi": "nhược điểm"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "コストパフォーマンス",
+      "hiragana": "こすとぱふぉーまんす",
+      "vi": "hiệu quả chi phí"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "フレックスタイム",
+      "hiragana": "ふれっくすたいむ",
+      "vi": "giờ làm việc linh hoạt"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "テレワーク",
+      "hiragana": "てれわーく",
+      "vi": "làm việc từ xa"
+    },
+    {
+      "category": "Ngoại lai ngữ",
+      "ja": "ワークライフバランス",
+      "hiragana": "わーくらいふばらんす",
+      "vi": "cân bằng công việc-cuộc sống"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "背に腹はかえられない",
+      "hiragana": "せにはらはかえられない",
+      "vi": "cái khó ló cái khôn, bất đắc dĩ"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "石橋を叩いて渡る",
+      "hiragana": "いしばしをたたいてわたる",
+      "vi": "cẩn thận quá mức"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "猫の手も借りたい",
+      "hiragana": "ねこのてもかりたい",
+      "vi": "bận đến mức muốn mượn tay mèo"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "根回し",
+      "hiragana": "ねまわし",
+      "vi": "vận động hậu trường"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "足を引っ張る",
+      "hiragana": "あしをひっぱる",
+      "vi": "kéo chân, cản trở"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "顔が広い",
+      "hiragana": "かおがひろい",
+      "vi": "quen biết rộng"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "腕を磨く",
+      "hiragana": "うでをみがく",
+      "vi": "trau dồi kỹ năng"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "目が回る",
+      "hiragana": "めがまわる",
+      "vi": "bận tít mù"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "手を打つ",
+      "hiragana": "てをうつ",
+      "vi": "ra tay, đưa ra biện pháp"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "口を出す",
+      "hiragana": "くちをだす",
+      "vi": "xen vào, can thiệp"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "気が利く",
+      "hiragana": "きがきく",
+      "vi": "tinh ý, chu đáo"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "話に花が咲く",
+      "hiragana": "はなしにはながさく",
+      "vi": "nói chuyện rôm rả"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "釘を刺す",
+      "hiragana": "くぎをさす",
+      "vi": "dặn dò, cảnh báo"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "板挟み",
+      "hiragana": "いたばさみ",
+      "vi": "kẹt giữa hai bên"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "前向き",
+      "hiragana": "まえむき",
+      "vi": "tích cực, hướng tới"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "後ろ向き",
+      "hiragana": "うしろむき",
+      "vi": "tiêu cực, lùi lại"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "本音",
+      "hiragana": "ほんね",
+      "vi": "suy nghĩ thật"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "建前",
+      "hiragana": "たてまえ",
+      "vi": "bề ngoài, nguyên tắc"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "正念場",
+      "hiragana": "しょうねんば",
+      "vi": "thời khắc quyết định"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "電話をかける",
+      "hiragana": "でんわをかける",
+      "vi": "gọi điện"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "電話を受ける",
+      "hiragana": "でんわをうける",
+      "vi": "nghe điện"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "電話を切る",
+      "hiragana": "でんわをきる",
+      "vi": "cúp máy"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "電話を取り次ぐ",
+      "hiragana": "でんわをとりつぐ",
+      "vi": "chuyển cuộc gọi"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "折り返す",
+      "hiragana": "おりかえす",
+      "vi": "gọi lại"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "伝言",
+      "hiragana": "でんごん",
+      "vi": "tin nhắn/lời nhắn"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "留守番電話",
+      "hiragana": "るすばんでんわ",
+      "vi": "máy trả lời tự động"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "着信",
+      "hiragana": "ちゃくしん",
+      "vi": "cuộc gọi đến"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "発信",
+      "hiragana": "はっしん",
+      "vi": "gửi đi/gọi đi"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "宛先",
+      "hiragana": "あてさき",
+      "vi": "người nhận"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "件名",
+      "hiragana": "けんめい",
+      "vi": "tiêu đề email"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "添付",
+      "hiragana": "てんぷ",
+      "vi": "đính kèm"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "転送",
+      "hiragana": "てんそう",
+      "vi": "chuyển tiếp"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "返信",
+      "hiragana": "へんしん",
+      "vi": "trả lời"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "CC",
+      "hiragana": "しーしー",
+      "vi": "gửi cho biết"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "BCC",
+      "hiragana": "びーしーしー",
+      "vi": "gửi ẩn"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "照会",
+      "hiragana": "しょうかい",
+      "vi": "hỏi thăm/tra cứu"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "回答",
+      "hiragana": "かいとう",
+      "vi": "trả lời/phản hồi"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "催促",
+      "hiragana": "さいそく",
+      "vi": "giục/nhắc nhở"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "問い合わせ",
+      "hiragana": "といあわせ",
+      "vi": "hỏi thăm/liên hệ"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "お知らせ",
+      "hiragana": "おしらせ",
+      "vi": "thông báo"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "ご案内",
+      "hiragana": "ごあんない",
+      "vi": "hướng dẫn"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "ご挨拶",
+      "hiragana": "ごあいさつ",
+      "vi": "chào hỏi"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "議題",
+      "hiragana": "ぎだい",
+      "vi": "chủ đề thảo luận"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "議案",
+      "hiragana": "ぎあん",
+      "vi": "đề nghị/nghị án"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "採決",
+      "hiragana": "さいけつ",
+      "vi": "biểu quyết"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "賛成",
+      "hiragana": "さんせい",
+      "vi": "đồng ý"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "反対",
+      "hiragana": "はんたい",
+      "vi": "phản đối"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "棄権",
+      "hiragana": "きけん",
+      "vi": "bỏ phiếu trắng"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "多数決",
+      "hiragana": "たすうけつ",
+      "vi": "biểu quyết theo đa số"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "全会一致",
+      "hiragana": "ぜんかいいっち",
+      "vi": "nhất trí"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "発言",
+      "hiragana": "はつげん",
+      "vi": "phát biểu"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "質疑応答",
+      "hiragana": "しつぎおうとう",
+      "vi": "hỏi đáp"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "司会",
+      "hiragana": "しかい",
+      "vi": "dẫn chương trình"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "出席者",
+      "hiragana": "しゅっせきしゃ",
+      "vi": "người tham dự"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "欠席",
+      "hiragana": "けっせき",
+      "vi": "vắng mặt"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "延期",
+      "hiragana": "えんき",
+      "vi": "hoãn lại"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "再開",
+      "hiragana": "さいかい",
+      "vi": "tái khai"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "定例会議",
+      "hiragana": "ていれいかいぎ",
+      "vi": "họp định kỳ"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "臨時会議",
+      "hiragana": "りんじかいぎ",
+      "vi": "họp khẩn"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "役員会議",
+      "hiragana": "やくいんかいぎ",
+      "vi": "họp ban giám đốc"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "株主総会",
+      "hiragana": "かぶぬしそうかい",
+      "vi": "đại hội cổ đông"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "ブレインストーミング",
+      "hiragana": "ぶれいんすとーみんぐ",
+      "vi": "động não"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "配布資料",
+      "hiragana": "はいふしりょう",
+      "vi": "tài liệu phát"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "ホワイトボード",
+      "hiragana": "ほわいとぼーど",
+      "vi": "bảng trắng"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "レジュメ",
+      "hiragana": "れじゅめ",
+      "vi": "tóm tắt/resume"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "配送",
+      "hiragana": "はいそう",
+      "vi": "giao hàng"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "発送",
+      "hiragana": "はっそう",
+      "vi": "gửi hàng"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "荷物",
+      "hiragana": "にもつ",
+      "vi": "hàng hoá/bưu kiện"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "積み込み",
+      "hiragana": "つみこみ",
+      "vi": "xếp hàng lên"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "荷降ろし",
+      "hiragana": "におろし",
+      "vi": "dỡ hàng"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "保管",
+      "hiragana": "ほかん",
+      "vi": "bảo quản"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "運賃",
+      "hiragana": "うんちん",
+      "vi": "cước phí vận chuyển"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "送料",
+      "hiragana": "そうりょう",
+      "vi": "phí gửi hàng"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "着払い",
+      "hiragana": "ちゃくばらい",
+      "vi": "thanh toán khi nhận"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "代引き",
+      "hiragana": "だいびき",
+      "vi": "thu hộ"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "追跡",
+      "hiragana": "ついせき",
+      "vi": "theo dõi"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "配達",
+      "hiragana": "はいたつ",
+      "vi": "phân phát"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "宅配便",
+      "hiragana": "たくはいびん",
+      "vi": "chuyển phát nhanh"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "速達",
+      "hiragana": "そくたつ",
+      "vi": "chuyển phát nhanh (bưu điện)"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "通関",
+      "hiragana": "つうかん",
+      "vi": "thông quan"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "関税",
+      "hiragana": "かんぜい",
+      "vi": "thuế quan"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "輸出",
+      "hiragana": "ゆしゅつ",
+      "vi": "xuất khẩu"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "輸入",
+      "hiragana": "ゆにゅう",
+      "vi": "nhập khẩu"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "船便",
+      "hiragana": "ふなびん",
+      "vi": "đường biển"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "航空便",
+      "hiragana": "こうくうびん",
+      "vi": "đường hàng không"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "コンテナ",
+      "hiragana": "こんてな",
+      "vi": "container"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "パレット",
+      "hiragana": "ぱれっと",
+      "vi": "pallet"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "口座",
+      "hiragana": "こうざ",
+      "vi": "tài khoản"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "普通預金",
+      "hiragana": "ふつうよきん",
+      "vi": "tiền gửi thông thường"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "定期預金",
+      "hiragana": "ていきよきん",
+      "vi": "tiền gửi có kỳ hạn"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "振込",
+      "hiragana": "ふりこみ",
+      "vi": "chuyển khoản"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "引き落とし",
+      "hiragana": "ひきおとし",
+      "vi": "trích tài khoản tự động"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "入金",
+      "hiragana": "にゅうきん",
+      "vi": "nạp tiền"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "出金",
+      "hiragana": "しゅっきん",
+      "vi": "rút tiền"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "残高",
+      "hiragana": "ざんだか",
+      "vi": "số dư"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "担保",
+      "hiragana": "たんぽ",
+      "vi": "thế chấp"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "保証人",
+      "hiragana": "ほしょうにん",
+      "vi": "người bảo lãnh"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "返済",
+      "hiragana": "へんさい",
+      "vi": "trả nợ"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "保険料",
+      "hiragana": "ほけんりょう",
+      "vi": "phí bảo hiểm"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "保険金",
+      "hiragana": "ほけんきん",
+      "vi": "tiền bảo hiểm chi trả"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "生命保険",
+      "hiragana": "せいめいほけん",
+      "vi": "bảo hiểm nhân thọ"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "損害保険",
+      "hiragana": "そんがいほけん",
+      "vi": "bảo hiểm thiệt hại"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "補償",
+      "hiragana": "ほしょう",
+      "vi": "bồi thường"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "請求",
+      "hiragana": "せいきゅう",
+      "vi": "yêu cầu thanh toán"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "精算",
+      "hiragana": "せいさん",
+      "vi": "quyết toán/thanh toán"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "立替払い",
+      "hiragana": "たてかえばらい",
+      "vi": "ứng trước tiền"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "小切手",
+      "hiragana": "こぎって",
+      "vi": "séc"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "手形",
+      "hiragana": "てがた",
+      "vi": "hối phiếu"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "為替手形",
+      "hiragana": "かわせてがた",
+      "vi": "hối phiếu"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "貿易",
+      "hiragana": "ぼうえき",
+      "vi": "thương mại/ngoại thương"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "海外進出",
+      "hiragana": "かいがいしんしゅつ",
+      "vi": "tiến ra nước ngoài"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "現地法人",
+      "hiragana": "げんちほうじん",
+      "vi": "pháp nhân tại chỗ"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "合弁会社",
+      "hiragana": "ごうべんがいしゃ",
+      "vi": "liên doanh"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "提携",
+      "hiragana": "ていけい",
+      "vi": "hợp tác/liên kết"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "買収",
+      "hiragana": "ばいしゅう",
+      "vi": "mua lại"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "合併",
+      "hiragana": "がっぺい",
+      "vi": "sáp nhập"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "子会社",
+      "hiragana": "こがいしゃ",
+      "vi": "công ty con"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "親会社",
+      "hiragana": "おやがいしゃ",
+      "vi": "công ty mẹ"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "グループ会社",
+      "hiragana": "ぐるーぷがいしゃ",
+      "vi": "công ty trong tập đoàn"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "駐在員",
+      "hiragana": "ちゅうざいいん",
+      "vi": "nhân viên biệt phái"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "商談",
+      "hiragana": "しょうだん",
+      "vi": "đàm phán kinh doanh"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "仲介",
+      "hiragana": "ちゅうかい",
+      "vi": "môi giới"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "信用状",
+      "hiragana": "しんようじょう",
+      "vi": "thư tín dụng L/C"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "FOB",
+      "hiragana": "えふおーびー",
+      "vi": "giá giao tại cảng"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "CIF",
+      "hiragana": "しーあいえふ",
+      "vi": "giá bao gồm bảo hiểm+cước"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "為替レート",
+      "hiragana": "かわせれーと",
+      "vi": "tỷ giá hối đoái"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "国際規格",
+      "hiragana": "こくさいきかく",
+      "vi": "tiêu chuẩn quốc tế"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "ビザ",
+      "hiragana": "びざ",
+      "vi": "thị thực"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "渡航",
+      "hiragana": "とこう",
+      "vi": "đi nước ngoài"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "帰国",
+      "hiragana": "きこく",
+      "vi": "về nước"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "見積もる",
+      "hiragana": "みつもる",
+      "vi": "báo giá/ước tính"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "交渉する",
+      "hiragana": "こうしょうする",
+      "vi": "đàm phán"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "提出する",
+      "hiragana": "ていしゅつする",
+      "vi": "nộp/đệ trình"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "報告する",
+      "hiragana": "ほうこくする",
+      "vi": "báo cáo"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "連絡する",
+      "hiragana": "れんらくする",
+      "vi": "liên lạc"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "調整する",
+      "hiragana": "ちょうせいする",
+      "vi": "điều chỉnh"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "検討する",
+      "hiragana": "けんとうする",
+      "vi": "xem xét"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "実施する",
+      "hiragana": "じっしする",
+      "vi": "thực hiện"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "見直す",
+      "hiragana": "みなおす",
+      "vi": "xem xét lại"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "取り消す",
+      "hiragana": "とりけす",
+      "vi": "huỷ bỏ"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "引き受ける",
+      "hiragana": "ひきうける",
+      "vi": "nhận/đảm nhận"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "手配する",
+      "hiragana": "てはいする",
+      "vi": "sắp xếp/thu xếp"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "段取りする",
+      "hiragana": "だんどりする",
+      "vi": "chuẩn bị/sắp xếp"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "打ち合わせる",
+      "hiragana": "うちあわせる",
+      "vi": "trao đổi/họp"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "申し込む",
+      "hiragana": "もうしこむ",
+      "vi": "đăng ký/xin"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "問い合わせる",
+      "hiragana": "といあわせる",
+      "vi": "hỏi thăm"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "見送る",
+      "hiragana": "みおくる",
+      "vi": "hoãn lại/tiễn"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "差し替える",
+      "hiragana": "さしかえる",
+      "vi": "thay thế"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "申し出る",
+      "hiragana": "もうしでる",
+      "vi": "đề nghị/xin"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "引き継ぐ",
+      "hiragana": "ひきつぐ",
+      "vi": "bàn giao"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "立ち上げる",
+      "hiragana": "たちあげる",
+      "vi": "khởi động/thành lập"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "切り替える",
+      "hiragana": "きりかえる",
+      "vi": "chuyển đổi"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "振り分ける",
+      "hiragana": "ふりわける",
+      "vi": "phân chia"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "順調",
+      "hiragana": "じゅんちょう",
+      "vi": "thuận lợi"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "好調",
+      "hiragana": "こうちょう",
+      "vi": "tốt đẹp"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "不調",
+      "hiragana": "ふちょう",
+      "vi": "không tốt"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "堅調",
+      "hiragana": "けんちょう",
+      "vi": "vững chắc"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "円滑",
+      "hiragana": "えんかつ",
+      "vi": "suôn sẻ"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "迅速",
+      "hiragana": "じんそく",
+      "vi": "nhanh chóng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "慎重",
+      "hiragana": "しんちょう",
+      "vi": "thận trọng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "柔軟",
+      "hiragana": "じゅうなん",
+      "vi": "linh hoạt"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "厳格",
+      "hiragana": "げんかく",
+      "vi": "nghiêm khắc"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "公正",
+      "hiragana": "こうせい",
+      "vi": "công bằng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "妥当",
+      "hiragana": "だとう",
+      "vi": "thỏa đáng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "適正",
+      "hiragana": "てきせい",
+      "vi": "thích hợp/đúng mức"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "大幅",
+      "hiragana": "おおはば",
+      "vi": "đáng kể/lớn"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "若干",
+      "hiragana": "じゃっかん",
+      "vi": "một chút"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "膨大",
+      "hiragana": "ぼうだい",
+      "vi": "khổng lồ"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "微量",
+      "hiragana": "びりょう",
+      "vi": "rất ít"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "急激",
+      "hiragana": "きゅうげき",
+      "vi": "đột ngột"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "緩やか",
+      "hiragana": "ゆるやか",
+      "vi": "từ từ/nhẹ nhàng"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "横ばい",
+      "hiragana": "よこばい",
+      "vi": "đi ngang/không đổi"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "低迷",
+      "hiragana": "ていめい",
+      "vi": "ảm đạm/trì trệ"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "注文書",
+      "hiragana": "ちゅうもんしょ",
+      "vi": "đơn đặt hàng"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "発注書",
+      "hiragana": "はっちゅうしょ",
+      "vi": "phiếu đặt hàng"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "稟議書",
+      "hiragana": "りんぎしょ",
+      "vi": "tờ trình phê duyệt"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "始末書",
+      "hiragana": "しまつしょ",
+      "vi": "bản tường trình"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "顛末書",
+      "hiragana": "てんまつしょ",
+      "vi": "báo cáo sự việc"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "辞表",
+      "hiragana": "じひょう",
+      "vi": "đơn từ chức"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "届出",
+      "hiragana": "とどけで",
+      "vi": "đơn báo/khai báo"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "申請書",
+      "hiragana": "しんせいしょ",
+      "vi": "đơn xin"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "通達",
+      "hiragana": "つうたつ",
+      "vi": "thông đạt"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "回覧板",
+      "hiragana": "かいらんばん",
+      "vi": "bảng truyền tay"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "社内報",
+      "hiragana": "しゃないほう",
+      "vi": "bản tin nội bộ"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "日報",
+      "hiragana": "にっぽう",
+      "vi": "báo cáo ngày"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "月報",
+      "hiragana": "げっぽう",
+      "vi": "báo cáo tháng"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "年報",
+      "hiragana": "ねんぽう",
+      "vi": "báo cáo năm"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "出張報告書",
+      "hiragana": "しゅっちょうほうこくしょ",
+      "vi": "báo cáo công tác"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "経費精算書",
+      "hiragana": "けいひせいさんしょ",
+      "vi": "phiếu quyết toán chi phí"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "名刺",
+      "hiragana": "めいし",
+      "vi": "danh thiếp"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "封筒",
+      "hiragana": "ふうとう",
+      "vi": "phong bì"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "書留",
+      "hiragana": "かきとめ",
+      "vi": "thư đảm bảo"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "アカウント",
+      "hiragana": "あかうんと",
+      "vi": "tài khoản"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "サーバー",
+      "hiragana": "さーばー",
+      "vi": "máy chủ"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "起動",
+      "hiragana": "きどう",
+      "vi": "khởi động"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "再起動",
+      "hiragana": "さいきどう",
+      "vi": "khởi động lại"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "強制終了",
+      "hiragana": "きょうせいしゅうりょう",
+      "vi": "tắt cưỡng bức"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お越しになる",
+      "hiragana": "おこしになる",
+      "vi": "đến (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お見えになる",
+      "hiragana": "おみえになる",
+      "vi": "đến (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご存じ",
+      "hiragana": "ごぞんじ",
+      "vi": "biết (tôn kính)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お目にかかる",
+      "hiragana": "おめにかかる",
+      "vi": "gặp (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "拝読する",
+      "hiragana": "はいどくする",
+      "vi": "đọc (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "拝借する",
+      "hiragana": "はいしゃくする",
+      "vi": "mượn (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "参る",
+      "hiragana": "まいる",
+      "vi": "đi/đến (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "差し上げる",
+      "hiragana": "さしあげる",
+      "vi": "cho/tặng (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "存じる",
+      "hiragana": "ぞんじる",
+      "vi": "biết/nghĩ (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "うかがう",
+      "hiragana": "うかがう",
+      "vi": "hỏi/thăm (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "お目にかける",
+      "hiragana": "おめにかける",
+      "vi": "cho xem (khiêm nhường)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご足労",
+      "hiragana": "ごそくろう",
+      "vi": "phiền (quý khách) đến"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご高配",
+      "hiragana": "ごこうはい",
+      "vi": "sự quan tâm (của cấp trên)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご愛顧",
+      "hiragana": "ごあいこ",
+      "vi": "sự ủng hộ (của khách hàng)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご清栄",
+      "hiragana": "ごせいえい",
+      "vi": "sự thịnh vượng (kính ngữ)"
+    },
+    {
+      "category": "Keigo",
+      "ja": "ご多忙",
+      "hiragana": "ごたぼう",
+      "vi": "sự bận rộn (kính ngữ)"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "折り返し",
+      "hiragana": "おりかえし",
+      "vi": "gọi lại"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "差出人",
+      "hiragana": "さしだしにん",
+      "vi": "người gửi"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "本文",
+      "hiragana": "ほんぶん",
+      "vi": "nội dung chính"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "受信トレイ",
+      "hiragana": "じゅしんとれい",
+      "vi": "hộp thư đến"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "迷惑メール",
+      "hiragana": "めいわくめーる",
+      "vi": "thư rác"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "一斉送信",
+      "hiragana": "いっせいそうしん",
+      "vi": "gửi hàng loạt"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "開会",
+      "hiragana": "かいかい",
+      "vi": "khai mạc"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "閉会",
+      "hiragana": "へいかい",
+      "vi": "bế mạc"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "挙手",
+      "hiragana": "きょしゅ",
+      "vi": "giơ tay"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "可決",
+      "hiragana": "かけつ",
+      "vi": "thông qua (nghị quyết)"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "否決",
+      "hiragana": "ひけつ",
+      "vi": "bác bỏ"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "進行役",
+      "hiragana": "しんこうやく",
+      "vi": "người điều hành"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "入庫",
+      "hiragana": "にゅうこ",
+      "vi": "nhập kho"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "出庫",
+      "hiragana": "しゅっこ",
+      "vi": "xuất kho"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "荷下ろし",
+      "hiragana": "におろし",
+      "vi": "dỡ hàng"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "追跡番号",
+      "hiragana": "ついせきばんごう",
+      "vi": "mã theo dõi"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "到着予定",
+      "hiragana": "とうちゃくよてい",
+      "vi": "dự kiến đến nơi"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "仕分け",
+      "hiragana": "しわけ",
+      "vi": "phân loại"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "フォークリフト",
+      "hiragana": "ふぉーくりふと",
+      "vi": "xe nâng"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "当座預金",
+      "hiragana": "とうざよきん",
+      "vi": "tài khoản vãng lai"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "振り込み",
+      "hiragana": "ふりこみ",
+      "vi": "chuyển khoản"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "火災保険",
+      "hiragana": "かさいほけん",
+      "vi": "bảo hiểm hỏa hoạn"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "満期",
+      "hiragana": "まんき",
+      "vi": "đáo hạn"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "貿易摩擦",
+      "hiragana": "ぼうえきまさつ",
+      "vi": "ma sát thương mại"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "自由貿易",
+      "hiragana": "じゆうぼうえき",
+      "vi": "thương mại tự do"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "保護貿易",
+      "hiragana": "ほごぼうえき",
+      "vi": "thương mại bảo hộ"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "原産地",
+      "hiragana": "げんさんち",
+      "vi": "nơi xuất xứ"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "船荷証券",
+      "hiragana": "ふなにしょうけん",
+      "vi": "vận đơn đường biển"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "保税倉庫",
+      "hiragana": "ほぜいそうこ",
+      "vi": "kho ngoại quan"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "海外駐在",
+      "hiragana": "かいがいちゅうざい",
+      "vi": "cử đi nước ngoài"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "商社",
+      "hiragana": "しょうしゃ",
+      "vi": "công ty thương mại"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "念書",
+      "hiragana": "ねんしょ",
+      "vi": "giấy cam kết"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "通知書",
+      "hiragana": "つうちしょ",
+      "vi": "thông báo (văn bản)"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "督促状",
+      "hiragana": "とくそくじょう",
+      "vi": "thư nhắc nhở, đòi nợ"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "照会状",
+      "hiragana": "しょうかいじょう",
+      "vi": "thư hỏi thăm, xác nhận"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "承諾書",
+      "hiragana": "しょうだくしょ",
+      "vi": "giấy chấp thuận"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "委任状",
+      "hiragana": "いにんじょう",
+      "vi": "giấy ủy quyền"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "以心伝心",
+      "hiragana": "いしんでんしん",
+      "vi": "tâm truyền tâm"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "七転八起",
+      "hiragana": "ななころびやおき",
+      "vi": "bảy lần ngã tám lần đứng dậy"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "一期一会",
+      "hiragana": "いちごいちえ",
+      "vi": "mỗi cuộc gặp là duy nhất"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "十人十色",
+      "hiragana": "じゅうにんといろ",
+      "vi": "mười người mười màu"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "自業自得",
+      "hiragana": "じごうじとく",
+      "vi": "tự làm tự chịu"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "試行錯誤",
+      "hiragana": "しこうさくご",
+      "vi": "thử và sai"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "臨機応変",
+      "hiragana": "りんきおうへん",
+      "vi": "linh hoạt ứng biến"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "前代未聞",
+      "hiragana": "ぜんだいみもん",
+      "vi": "chưa từng có tiền lệ"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "適材適所",
+      "hiragana": "てきざいてきしょ",
+      "vi": "đúng người đúng việc"
+    },
+    {
+      "category": "Thành ngữ",
+      "ja": "責任転嫁",
+      "hiragana": "せきにんてんか",
+      "vi": "đổ trách nhiệm"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "人工知能",
+      "hiragana": "じんこうちのう",
+      "vi": "trí tuệ nhân tạo (AI)"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "機械学習",
+      "hiragana": "きかいがくしゅう",
+      "vi": "học máy"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "ビッグデータ",
+      "hiragana": "びっぐでーた",
+      "vi": "dữ liệu lớn"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "暗号化",
+      "hiragana": "あんごうか",
+      "vi": "mã hóa"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "脆弱性",
+      "hiragana": "ぜいじゃくせい",
+      "vi": "lỗ hổng bảo mật"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "復旧",
+      "hiragana": "ふっきゅう",
+      "vi": "khôi phục"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "帯域幅",
+      "hiragana": "たいいきはば",
+      "vi": "băng thông"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "拡張機能",
+      "hiragana": "かくちょうきのう",
+      "vi": "tiện ích mở rộng"
+    },
+    {
+      "category": "IT - Công nghệ",
+      "ja": "互換性",
+      "hiragana": "ごかんせい",
+      "vi": "tính tương thích"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "口座番号",
+      "hiragana": "こうざばんごう",
+      "vi": "số tài khoản"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "元本",
+      "hiragana": "がんぽん",
+      "vi": "vốn gốc"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "債務",
+      "hiragana": "さいむ",
+      "vi": "nợ, nghĩa vụ trả nợ"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "債権",
+      "hiragana": "さいけん",
+      "vi": "quyền đòi nợ"
+    },
+    {
+      "category": "Ngân hàng - Bảo hiểm",
+      "ja": "自動車保険",
+      "hiragana": "じどうしゃほけん",
+      "vi": "bảo hiểm ô tô"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "通話",
+      "hiragana": "つうわ",
+      "vi": "cuộc gọi, nói chuyện"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "不在",
+      "hiragana": "ふざい",
+      "vi": "vắng mặt"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "連絡先",
+      "hiragana": "れんらくさき",
+      "vi": "thông tin liên hệ"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "既読",
+      "hiragana": "きどく",
+      "vi": "đã đọc"
+    },
+    {
+      "category": "Điện thoại - Email",
+      "ja": "未読",
+      "hiragana": "みどく",
+      "vi": "chưa đọc"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "陸送",
+      "hiragana": "りくそう",
+      "vi": "vận chuyển đường bộ"
+    },
+    {
+      "category": "Vận chuyển - Logistics",
+      "ja": "海上輸送",
+      "hiragana": "かいじょうゆそう",
+      "vi": "vận chuyển đường biển"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "多国籍企業",
+      "hiragana": "たこくせききぎょう",
+      "vi": "doanh nghiệp đa quốc gia"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "現地採用",
+      "hiragana": "げんちさいよう",
+      "vi": "tuyển dụng tại chỗ"
+    },
+    {
+      "category": "Thương mại quốc tế",
+      "ja": "技術移転",
+      "hiragana": "ぎじゅついてん",
+      "vi": "chuyển giao công nghệ"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "副会長",
+      "hiragana": "ふくかいちょう",
+      "vi": "phó chủ tịch"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "総務部長",
+      "hiragana": "そうむぶちょう",
+      "vi": "trưởng phòng tổng vụ"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "経理部長",
+      "hiragana": "けいりぶちょう",
+      "vi": "trưởng phòng kế toán"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "広報担当",
+      "hiragana": "こうほうたんとう",
+      "vi": "phụ trách quan hệ công chúng"
+    },
+    {
+      "category": "Chức vụ",
+      "ja": "嘱託",
+      "hiragana": "しょくたく",
+      "vi": "nhân viên hợp đồng (sau nghỉ hưu)"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "不振",
+      "hiragana": "ふしん",
+      "vi": "suy yếu, kém"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "潤沢",
+      "hiragana": "じゅんたく",
+      "vi": "dồi dào, phong phú"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "脆弱",
+      "hiragana": "ぜいじゃく",
+      "vi": "mong manh, yếu ớt"
+    },
+    {
+      "category": "Tính từ kinh doanh",
+      "ja": "顕著",
+      "hiragana": "けんちょ",
+      "vi": "rõ rệt, nổi bật"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "和解",
+      "hiragana": "わかい",
+      "vi": "hòa giải"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "仲裁",
+      "hiragana": "ちゅうさい",
+      "vi": "phân xử, trọng tài"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "判決",
+      "hiragana": "はんけつ",
+      "vi": "phán quyết"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "弁護士",
+      "hiragana": "べんごし",
+      "vi": "luật sư"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "原告",
+      "hiragana": "げんこく",
+      "vi": "nguyên đơn"
+    },
+    {
+      "category": "Hợp đồng - Pháp lý",
+      "ja": "被告",
+      "hiragana": "ひこく",
+      "vi": "bị đơn"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "国内総生産",
+      "hiragana": "こくないそうせいさん",
+      "vi": "tổng sản phẩm quốc nội (GDP)"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "消費者物価指数",
+      "hiragana": "しょうひしゃぶっかしすう",
+      "vi": "chỉ số giá tiêu dùng (CPI)"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "失業率",
+      "hiragana": "しつぎょうりつ",
+      "vi": "tỷ lệ thất nghiệp"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "金融緩和",
+      "hiragana": "きんゆうかんわ",
+      "vi": "nới lỏng tiền tệ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "金融引き締め",
+      "hiragana": "きんゆうひきしめ",
+      "vi": "thắt chặt tiền tệ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "財政赤字",
+      "hiragana": "ざいせいあかじ",
+      "vi": "thâm hụt ngân sách"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "国債",
+      "hiragana": "こくさい",
+      "vi": "trái phiếu chính phủ"
+    },
+    {
+      "category": "Kinh tế - Tài chính",
+      "ja": "社債",
+      "hiragana": "しゃさい",
+      "vi": "trái phiếu doanh nghiệp"
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "ご多忙のところ",
+      "hiragana": "ごたぼうのところ",
+      "vi": "dù biết anh/chị rất bận..."
+    },
+    {
+      "category": "Giao tiếp",
+      "ja": "何卒よろしくお願いいたします",
+      "hiragana": "なにとぞよろしくおねがいいたします",
+      "vi": "xin hãy giúp đỡ (rất lịch sự)"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "送付状",
+      "hiragana": "そうふじょう",
+      "vi": "thư gửi kèm"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "出荷伝票",
+      "hiragana": "しゅっかでんぴょう",
+      "vi": "phiếu xuất hàng"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "帳簿",
+      "hiragana": "ちょうぼ",
+      "vi": "sổ sách kế toán"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "決算書",
+      "hiragana": "けっさんしょ",
+      "vi": "báo cáo quyết toán"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "定款",
+      "hiragana": "ていかん",
+      "vi": "điều lệ công ty"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "辞令",
+      "hiragana": "じれい",
+      "vi": "quyết định bổ nhiệm"
+    },
+    {
+      "category": "Văn bản thương mại",
+      "ja": "退職届",
+      "hiragana": "たいしょくとどけ",
+      "vi": "đơn xin nghỉ việc"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "テレビ会議",
+      "hiragana": "てれびかいぎ",
+      "vi": "họp trực tuyến"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "ウェビナー",
+      "hiragana": "うぇびなー",
+      "vi": "hội thảo trực tuyến"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "懇親会",
+      "hiragana": "こんしんかい",
+      "vi": "tiệc giao lưu"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "歓迎会",
+      "hiragana": "かんげいかい",
+      "vi": "tiệc chào mừng"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "送別会",
+      "hiragana": "そうべつかい",
+      "vi": "tiệc chia tay"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "忘年会",
+      "hiragana": "ぼうねんかい",
+      "vi": "tiệc tất niên"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "新年会",
+      "hiragana": "しんねんかい",
+      "vi": "tiệc đầu năm"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "研修会",
+      "hiragana": "けんしゅうかい",
+      "vi": "buổi đào tạo"
+    },
+    {
+      "category": "Cuộc họp - Hội nghị",
+      "ja": "説明会",
+      "hiragana": "せつめいかい",
+      "vi": "buổi thuyết minh"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "年次有給休暇",
+      "hiragana": "ねんじゆうきゅうきゅうか",
+      "vi": "nghỉ phép năm có lương"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "時短勤務",
+      "hiragana": "じたんきんむ",
+      "vi": "làm việc rút ngắn giờ"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "在宅勤務",
+      "hiragana": "ざいたくきんむ",
+      "vi": "làm việc tại nhà"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "労働組合",
+      "hiragana": "ろうどうくみあい",
+      "vi": "công đoàn"
+    },
+    {
+      "category": "Nhân sự",
+      "ja": "団体交渉",
+      "hiragana": "だんたいこうしょう",
+      "vi": "đàm phán tập thể"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "口コミ",
+      "hiragana": "くちこみ",
+      "vi": "truyền miệng"
+    },
+    {
+      "category": "Marketing - Bán hàng",
+      "ja": "販促",
+      "hiragana": "はんそく",
+      "vi": "khuyến mãi, xúc tiến bán hàng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "受注生産",
+      "hiragana": "じゅちゅうせいさん",
+      "vi": "sản xuất theo đơn đặt hàng"
+    },
+    {
+      "category": "Sản xuất - Chất lượng",
+      "ja": "見込み生産",
+      "hiragana": "みこみせいさん",
+      "vi": "sản xuất dự đoán nhu cầu"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "打診する",
+      "hiragana": "だしんする",
+      "vi": "thăm dò ý kiến"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "根回しする",
+      "hiragana": "ねまわしする",
+      "vi": "vận động trước"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "差し戻す",
+      "hiragana": "さしもどす",
+      "vi": "trả lại, yêu cầu sửa"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "繰り上げる",
+      "hiragana": "くりあげる",
+      "vi": "đẩy lên sớm hơn"
+    },
+    {
+      "category": "Động từ kinh doanh",
+      "ja": "繰り下げる",
+      "hiragana": "くりさげる",
+      "vi": "lùi lại, hoãn"
+    }
+  ]
+}
