@@ -4888,7 +4888,8 @@
       const fullSrc = new URL(src, window.location).href;
       const isSameAudio = currentAudio && currentAudio.src === fullSrc;
       const resetBtn = b => {
-        b.textContent = b.dataset.origLabel || '▶';
+        if (!b.dataset.origLabel) return;
+        b.textContent = b.dataset.origLabel;
         b.style.background = 'var(--accent)';
       };
 
