@@ -312,12 +312,70 @@
       font-weight: 600;
       text-decoration: none;
       transition: all 0.2s ease;
-      box-shadow: 0 1px 3px rgba(229,57,53,0.3);
+      box-shadow: 0 1px 3px rgba(229, 57, 53, 0.3);
     }
+
     .pdf-link:hover {
       background: linear-gradient(135deg, #ff5252, #e53935);
-      box-shadow: 0 3px 8px rgba(229,57,53,0.4);
+      box-shadow: 0 3px 8px rgba(229, 57, 53, 0.4);
       transform: translateY(-1px);
+    }
+
+    .track-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      padding-left: 18px;
+    }
+
+    .track-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      margin-right: 10px;
+    }
+
+    .track-group-label {
+      font-size: 0.8em;
+      font-weight: 700;
+      color: var(--primary-light);
+      margin-right: 4px;
+    }
+
+    .track-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      padding: 3px 8px;
+      border: none;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.8em;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+
+    .track-btn:hover {
+      background: var(--primary-light);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .track-btn.wma {
+      background: #78909c;
+    }
+
+    .track-btn.wma:hover {
+      background: #546e7a;
     }
 
     .week-colors {
@@ -1031,6 +1089,7 @@
       overflow: hidden;
       box-shadow: var(--shadow);
     }
+
     .flashcard-container iframe {
       width: 100%;
       height: 100%;
@@ -1038,16 +1097,21 @@
     }
 
     /* ===== READING & REFERENCE SECTIONS ===== */
-    .reading-hero, .reference-hero {
+    .reading-hero,
+    .reference-hero {
       text-align: center;
       padding: 40px 20px 30px;
     }
-    .reading-hero h1, .reference-hero h1 {
+
+    .reading-hero h1,
+    .reference-hero h1 {
       font-size: 1.8em;
       color: var(--primary);
       margin-bottom: 8px;
     }
-    .reading-hero p, .reference-hero p {
+
+    .reading-hero p,
+    .reference-hero p {
       color: var(--text-light);
       font-size: 1.05em;
     }
@@ -1068,6 +1132,7 @@
       padding: 20px;
       transition: all 0.3s ease;
     }
+
     .resource-card:hover {
       border-color: var(--primary);
       box-shadow: var(--shadow);
@@ -1083,22 +1148,40 @@
       margin-bottom: 10px;
       text-transform: uppercase;
     }
-    .resource-level.beginner { background: #e3f2fd; color: #1565c0; }
-    .resource-level.intermediate { background: #e8f5e9; color: #2e7d32; }
-    .resource-level.advanced { background: #fbe9e7; color: #bf360c; }
-    .resource-level.mock { background: #fce4ec; color: #c62828; }
+
+    .resource-level.beginner {
+      background: #e3f2fd;
+      color: #1565c0;
+    }
+
+    .resource-level.intermediate {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+
+    .resource-level.advanced {
+      background: #fbe9e7;
+      color: #bf360c;
+    }
+
+    .resource-level.mock {
+      background: #fce4ec;
+      color: #c62828;
+    }
 
     .resource-card h4 {
       margin-bottom: 6px;
       font-size: 1.05rem;
       color: var(--primary);
     }
+
     .resource-card p {
       color: var(--text-light);
       font-size: 0.9rem;
       margin-bottom: 12px;
       line-height: 1.5;
     }
+
     .resource-card a {
       display: inline-block;
       color: var(--accent);
@@ -1106,6 +1189,7 @@
       font-weight: 600;
       font-size: 0.9rem;
     }
+
     .resource-card a:hover {
       text-decoration: underline;
     }
@@ -1128,14 +1212,17 @@
       padding-left: 40px;
       padding-right: 40px;
     }
+
     .tips-box h3 {
       color: var(--accent);
       margin-bottom: 12px;
       font-size: 1.1rem;
     }
+
     .tips-box ul {
       list-style: none;
     }
+
     .tips-box li {
       padding: 8px 0 8px 20px;
       position: relative;
@@ -1143,6 +1230,7 @@
       font-size: 0.93rem;
       line-height: 1.6;
     }
+
     .tips-box li:before {
       content: "\2192";
       position: absolute;
@@ -1156,11 +1244,13 @@
       margin: 32px auto;
       padding: 0 20px;
     }
+
     .reading-schedule h3 {
       color: var(--primary);
       margin-bottom: 12px;
       font-size: 1.1rem;
     }
+
     .reading-schedule table {
       width: 100%;
       border-collapse: collapse;
@@ -1169,19 +1259,28 @@
       overflow: hidden;
       box-shadow: var(--shadow);
     }
-    .reading-schedule th, .reading-schedule td {
+
+    .reading-schedule th,
+    .reading-schedule td {
       padding: 12px 16px;
       text-align: left;
       border-bottom: 1px solid var(--border);
       font-size: 0.93rem;
     }
+
     .reading-schedule th {
       background: var(--primary);
       color: #fff;
       font-weight: 600;
     }
-    .reading-schedule tr:last-child td { border-bottom: none; }
-    .reading-schedule tr:hover { background: #f0f4ff; }
+
+    .reading-schedule tr:last-child td {
+      border-bottom: none;
+    }
+
+    .reading-schedule tr:hover {
+      background: #f0f4ff;
+    }
 
     /* Reference page */
     .ref-container {
@@ -1189,9 +1288,11 @@
       margin: 0 auto;
       padding: 0 20px 40px;
     }
+
     .ref-section {
       margin-bottom: 32px;
     }
+
     .ref-section h2 {
       color: var(--primary);
       font-size: 1.25rem;
@@ -1200,12 +1301,14 @@
       align-items: center;
       gap: 8px;
     }
+
     .ref-section h3 {
       color: var(--accent2);
       font-size: 1rem;
       margin-top: 20px;
       margin-bottom: 10px;
     }
+
     .info-box {
       background: #f0f4ff;
       border-left: 4px solid var(--primary);
@@ -1213,38 +1316,45 @@
       border-radius: 6px;
       margin-bottom: 16px;
     }
+
     .info-box p {
       font-size: 0.93rem;
       line-height: 1.7;
       color: var(--text);
     }
+
     .structure-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 16px;
       margin-bottom: 20px;
     }
+
     .structure-item {
       background: var(--card);
       border: 2px solid var(--border);
       padding: 16px;
       border-radius: var(--radius);
     }
+
     .structure-item h4 {
       color: var(--accent);
       margin-bottom: 6px;
     }
+
     .structure-item p {
       color: var(--text-light);
       font-size: 0.88rem;
       margin-bottom: 6px;
     }
+
     .score-levels {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 12px;
       margin-bottom: 20px;
     }
+
     .score-level {
       background: var(--card);
       border-left: 4px solid;
@@ -1253,12 +1363,30 @@
       font-size: 0.9rem;
       box-shadow: var(--shadow);
     }
-    .score-level.j1p { border-color: #e53935; }
-    .score-level.j1 { border-color: #ff8f00; }
-    .score-level.j2 { border-color: #fdd835; }
-    .score-level.j3 { border-color: #43a047; }
-    .score-level.j4 { border-color: #1e88e5; }
-    .score-level.j5 { border-color: #7e57c2; }
+
+    .score-level.j1p {
+      border-color: #e53935;
+    }
+
+    .score-level.j1 {
+      border-color: #ff8f00;
+    }
+
+    .score-level.j2 {
+      border-color: #fdd835;
+    }
+
+    .score-level.j3 {
+      border-color: #43a047;
+    }
+
+    .score-level.j4 {
+      border-color: #1e88e5;
+    }
+
+    .score-level.j5 {
+      border-color: #7e57c2;
+    }
 
     .kata-grid {
       display: grid;
@@ -1266,6 +1394,7 @@
       gap: 12px;
       margin-bottom: 20px;
     }
+
     .kata-item {
       background: var(--card);
       padding: 12px;
@@ -1273,22 +1402,26 @@
       border-left: 3px solid var(--accent);
       box-shadow: var(--shadow);
     }
+
     .kata-item .jp {
       color: var(--primary);
       font-weight: 700;
       margin-bottom: 4px;
       font-size: 1rem;
     }
+
     .kata-item .en {
       color: var(--text-light);
       font-size: 0.85rem;
     }
+
     .org-chart {
       font-family: 'Courier New', monospace;
       line-height: 2;
       color: var(--primary);
       font-weight: 600;
     }
+
     .flow-chart {
       font-family: 'Courier New', monospace;
       line-height: 2;
@@ -1481,9 +1614,11 @@
     <div class="tips-box">
       <h3>Mẹo đọc hiểu BJT Part III</h3>
       <ul>
-        <li><strong>Quản lý thời gian:</strong> Part III chiếm ~35 phút cho 30-32 câu → ~50 giây/câu (bao gồm đọc + chọn đáp án)</li>
+        <li><strong>Quản lý thời gian:</strong> Part III chiếm ~35 phút cho 30-32 câu → ~50 giây/câu (bao gồm đọc + chọn
+          đáp án)</li>
         <li><strong>Chiến lược đọc:</strong> Đọc CÂU HỎI trước → biết cần tìm gì → tìm nhanh trong văn bản</li>
-        <li><strong>Chú ý signal words:</strong> ただし (tuy nhiên), なお (hơn nữa), ～に限り (chỉ... ngoài ra), ～を除く (ngoại trừ)</li>
+        <li><strong>Chú ý signal words:</strong> ただし (tuy nhiên), なお (hơn nữa), ～に限り (chỉ... ngoài ra), ～を除く (ngoại trừ)
+        </li>
         <li><strong>Email:</strong> Tìm 5W1H (ai viết, cái gì, khi nào, ở đâu, tại sao) và hành động yêu cầu</li>
         <li><strong>Biểu đồ:</strong> Đọc tiêu đề + đơn vị tính + xu hướng chính trước, sau đó xem chi tiết</li>
         <li><strong>Tài liệu dài:</strong> Đọc intro + kết luận trước, sau đó chi tiết để trả lời câu hỏi cụ thể</li>
@@ -1548,7 +1683,8 @@
         <div class="info-box">
           <p><strong>"BJT ビジネス日本語能力テスト 模試と対策"</strong></p>
           <p style="margin-top:8px;">Tác giả: JAL Academy | Nhà xuất bản: ASK Shuppan | 90 trang</p>
-          <p style="margin-top:8px;color:var(--accent2);"><strong>Nội dung:</strong> 1 đề thi thử đầy đủ + giải thích chi tiết + script nghe + chiến lược làm bài</p>
+          <p style="margin-top:8px;color:var(--accent2);"><strong>Nội dung:</strong> 1 đề thi thử đầy đủ + giải thích
+            chi tiết + script nghe + chiến lược làm bài</p>
         </div>
       </div>
 
@@ -1622,12 +1758,12 @@
       <div class="ref-section">
         <h2>Thang điểm BJT (0-800 điểm)</h2>
         <div class="score-levels">
-          <div class="score-level j1p"><strong>J1+ (600-800)</strong><br/>Bất kỳ tình huống kinh doanh</div>
-          <div class="score-level j1"><strong>J1 (530-599)</strong><br/>Hầu hết tình huống</div>
-          <div class="score-level j2"><strong>J2 (420-529)</strong><br/>Tình huống hạn chế</div>
-          <div class="score-level j3"><strong>J3 (320-419)</strong><br/>Tình huống đơn giản</div>
-          <div class="score-level j4"><strong>J4 (200-319)</strong><br/>Tình huống rất hạn chế</div>
-          <div class="score-level j5"><strong>J5 (0-199)</strong><br/>Hầu như chưa có khả năng</div>
+          <div class="score-level j1p"><strong>J1+ (600-800)</strong><br />Bất kỳ tình huống kinh doanh</div>
+          <div class="score-level j1"><strong>J1 (530-599)</strong><br />Hầu hết tình huống</div>
+          <div class="score-level j2"><strong>J2 (420-529)</strong><br />Tình huống hạn chế</div>
+          <div class="score-level j3"><strong>J3 (320-419)</strong><br />Tình huống đơn giản</div>
+          <div class="score-level j4"><strong>J4 (200-319)</strong><br />Tình huống rất hạn chế</div>
+          <div class="score-level j5"><strong>J5 (0-199)</strong><br />Hầu như chưa có khả năng</div>
         </div>
       </div>
 
@@ -1648,16 +1784,46 @@
       <div class="ref-section">
         <h2>カタカナ語 (Từ ngoại lai) — Thường gặp trong BJT</h2>
         <div class="kata-grid">
-          <div class="kata-item"><div class="jp">コンプライアンス</div><div class="en">Compliance / Tuân thủ quy định</div></div>
-          <div class="kata-item"><div class="jp">ガバナンス</div><div class="en">Governance / Quản trị công ty</div></div>
-          <div class="kata-item"><div class="jp">コンセンサス</div><div class="en">Consensus / Sự đồng thuận</div></div>
-          <div class="kata-item"><div class="jp">アジェンダ</div><div class="en">Agenda / Chương trình họp</div></div>
-          <div class="kata-item"><div class="jp">ブレスト</div><div class="en">Brainstorming / Động não</div></div>
-          <div class="kata-item"><div class="jp">リスケ</div><div class="en">Reschedule / Dời lại</div></div>
-          <div class="kata-item"><div class="jp">グローバル</div><div class="en">Global / Toàn cầu</div></div>
-          <div class="kata-item"><div class="jp">イノベーション</div><div class="en">Innovation / Đổi mới</div></div>
-          <div class="kata-item"><div class="jp">ステークホルダー</div><div class="en">Stakeholder / Bên liên quan</div></div>
-          <div class="kata-item"><div class="jp">レジリエンス</div><div class="en">Resilience / Khả năng phục hồi</div></div>
+          <div class="kata-item">
+            <div class="jp">コンプライアンス</div>
+            <div class="en">Compliance / Tuân thủ quy định</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">ガバナンス</div>
+            <div class="en">Governance / Quản trị công ty</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">コンセンサス</div>
+            <div class="en">Consensus / Sự đồng thuận</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">アジェンダ</div>
+            <div class="en">Agenda / Chương trình họp</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">ブレスト</div>
+            <div class="en">Brainstorming / Động não</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">リスケ</div>
+            <div class="en">Reschedule / Dời lại</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">グローバル</div>
+            <div class="en">Global / Toàn cầu</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">イノベーション</div>
+            <div class="en">Innovation / Đổi mới</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">ステークホルダー</div>
+            <div class="en">Stakeholder / Bên liên quan</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">レジリエンス</div>
+            <div class="en">Resilience / Khả năng phục hồi</div>
+          </div>
         </div>
       </div>
 
@@ -1666,22 +1832,22 @@
         <h2>Sơ đồ tổ chức công ty (Organizational Chart)</h2>
         <div class="info-box">
           <p class="org-chart">
-            社長 (Tổng giám đốc)<br/>
-            ↓<br/>
-            副社長 (Phó tổng giám đốc)<br/>
-            ↓<br/>
-            専務 (Giám đốc điều hành)<br/>
-            ↓<br/>
-            常務 (Giám đốc)<br/>
-            ↓<br/>
-            部長 (Trưởng bộ phận)<br/>
-            ↓<br/>
-            次長 (Phó trưởng bộ phận)<br/>
-            ↓<br/>
-            課長 (Trưởng phòng)<br/>
-            ↓<br/>
-            係長 (Trưởng nhóm)<br/>
-            ↓<br/>
+            社長 (Tổng giám đốc)<br />
+            ↓<br />
+            副社長 (Phó tổng giám đốc)<br />
+            ↓<br />
+            専務 (Giám đốc điều hành)<br />
+            ↓<br />
+            常務 (Giám đốc)<br />
+            ↓<br />
+            部長 (Trưởng bộ phận)<br />
+            ↓<br />
+            次長 (Phó trưởng bộ phận)<br />
+            ↓<br />
+            課長 (Trưởng phòng)<br />
+            ↓<br />
+            係長 (Trưởng nhóm)<br />
+            ↓<br />
             主任 (Nhân viên khoá)
           </p>
         </div>
@@ -1692,16 +1858,16 @@
         <h2>Quy trình giao dịch doanh nghiệp (Business Transaction Flow)</h2>
         <div class="info-box">
           <p class="flow-chart">
-            見積もり (Báo giá)<br/>
-            ↓<br/>
-            発注 (Đặt hàng)<br/>
-            ↓<br/>
-            納品 (Giao hàng)<br/>
-            ↓<br/>
-            検収 (Kiểm tra nhận)<br/>
-            ↓<br/>
-            請求 (Lập hóa đơn)<br/>
-            ↓<br/>
+            見積もり (Báo giá)<br />
+            ↓<br />
+            発注 (Đặt hàng)<br />
+            ↓<br />
+            納品 (Giao hàng)<br />
+            ↓<br />
+            検収 (Kiểm tra nhận)<br />
+            ↓<br />
+            請求 (Lập hóa đơn)<br />
+            ↓<br />
             支払い (Thanh toán)
           </p>
         </div>
@@ -1711,14 +1877,38 @@
       <div class="ref-section">
         <h2>Báo cáo tài chính (Financial Statements)</h2>
         <div class="kata-grid">
-          <div class="kata-item"><div class="jp">貸借対照表</div><div class="en">Balance Sheet / Bảng cân đối kế toán</div></div>
-          <div class="kata-item"><div class="jp">損益計算書</div><div class="en">Income Statement / Báo cáo lãi lỗ</div></div>
-          <div class="kata-item"><div class="jp">キャッシュフロー計算書</div><div class="en">Cash Flow Statement / Báo cáo lưu chuyển tiền tệ</div></div>
-          <div class="kata-item"><div class="jp">売上高</div><div class="en">Revenue / Doanh thu</div></div>
-          <div class="kata-item"><div class="jp">原価</div><div class="en">Cost of Goods Sold / Giá vốn</div></div>
-          <div class="kata-item"><div class="jp">営業利益</div><div class="en">Operating Profit / Lợi nhuận hoạt động</div></div>
-          <div class="kata-item"><div class="jp">純利益</div><div class="en">Net Profit / Lợi nhuận ròng</div></div>
-          <div class="kata-item"><div class="jp">資産</div><div class="en">Assets / Tài sản</div></div>
+          <div class="kata-item">
+            <div class="jp">貸借対照表</div>
+            <div class="en">Balance Sheet / Bảng cân đối kế toán</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">損益計算書</div>
+            <div class="en">Income Statement / Báo cáo lãi lỗ</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">キャッシュフロー計算書</div>
+            <div class="en">Cash Flow Statement / Báo cáo lưu chuyển tiền tệ</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">売上高</div>
+            <div class="en">Revenue / Doanh thu</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">原価</div>
+            <div class="en">Cost of Goods Sold / Giá vốn</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">営業利益</div>
+            <div class="en">Operating Profit / Lợi nhuận hoạt động</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">純利益</div>
+            <div class="en">Net Profit / Lợi nhuận ròng</div>
+          </div>
+          <div class="kata-item">
+            <div class="jp">資産</div>
+            <div class="en">Assets / Tài sản</div>
+          </div>
         </div>
       </div>
     </div>
@@ -1788,6 +1978,42 @@
     // ========================
     // ROADMAP DATA
     // ========================
+    const AUDIO_BOOKS = {
+      Q4: {
+        folder: 'QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/',
+        file: n => `${String(n).padStart(2, '0')} トラック ${n}.mp3`,
+        label: 'Q4',
+        playable: true
+      },
+      Q1: {
+        folder: 'QUYỂN 1. わかるビジネス日本語quyển xanh/',
+        file: n => `${String(n).padStart(2, '0')} Track ${n}.mp3`,
+        label: 'Q1',
+        playable: true
+      }
+    };
+
+    function renderTrackGroup({ book, from, to }) {
+      const b = AUDIO_BOOKS[book];
+      if (!b) return '';
+      let buttons = '';
+      for (let n = from; n <= to; n++) {
+        const src = (b.folder + b.file(n)).replace(/'/g, "\\'");
+        const label = String(n).padStart(2, '0');
+        if (b.playable) {
+          buttons += `<button class="track-btn" onclick="playAudio(this, '${src}')" title="再生 Track ${n}">▶ ${label}</button>`;
+        } else {
+          buttons += `<a class="track-btn wma" href="${src}" target="_blank" title="Track ${n} (mở bằng trình phát hệ thống)">⬇ ${label}</a>`;
+        }
+      }
+      return `<div class="track-group"><span class="track-group-label">${b.label}:</span>${buttons}</div>`;
+    }
+
+    function renderAudio(audio) {
+      if (!audio || !audio.length) return '';
+      return audio.map(renderTrackGroup).join('');
+    }
+
     const weeksData = [
       {
         num: 1, title: "Làm quen cấu trúc BJT & Nền tảng Keigo",
@@ -1805,7 +2031,8 @@
           "Keigo đặc biệt: いらっしゃる, おっしゃる, 存じる, 拝見する, 召し上がる"
         ],
         reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Đọc phần mở đầu + Hướng dẫn làm bài (trang 1-20)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 01-08 (làm quen format nghe)"
+        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 01-08 (làm quen format nghe) - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 1, to: 8 }]
       },
       {
         num: 2, title: "Điều kiện ngữ & Giao tiếp văn phòng",
@@ -1823,7 +2050,8 @@
           "Quán dùng ngữ: 重箱の隅をつつく, もちきり, 思いもよらない"
         ],
         reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 1: Ngữ pháp & Từ vựng (câu 1-10)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 09-16 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 11-20"
+        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 09-16 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 11-20 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 9, to: 19 }, { book: 'Q1', from: 11, to: 20 }]
       },
       {
         num: 3, title: "Diễn đạt & Keigo nâng cao",
@@ -1841,7 +2069,8 @@
           "Email: 照会, 回答, 転送, 追信"
         ],
         reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 2: Diễn đạt (câu 1-10 + giải thích)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 17-24 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 21-30"
+        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 17-24 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 21-30 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 17, to: 24 }, { book: 'Q1', from: 21, to: 30 }]
       },
       {
         num: 4, title: "Đọc hiểu văn bản kinh doanh",
@@ -1859,7 +2088,8 @@
           "Văn bản nội bộ: 社内掲示, 通知, 引き継ぎ, フレックスタイム"
         ],
         reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 3: Đọc hiểu câu ngắn (câu 1-15)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 25-32"
+        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 25-32 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 25, to: 32 }]
       },
       {
         num: 5, title: "Nghe hiểu mô tả & Biểu đạt",
@@ -1877,7 +2107,8 @@
           "Điện thoại: 留守番電話, 伝言メモ, 折り返し電話"
         ],
         reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 31-60 + Ôn tập lại bài đọc tuần 4",
-        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 1 toàn bộ (Section 1+2+3)"
+        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 1 toàn bộ (Section 1+2+3)",
+        audio: []
       },
       {
         num: 6, title: "Nghe-Đọc kết hợp & Xử lý thông tin",
@@ -1895,7 +2126,8 @@
           "Mua bán: 代替品, 在庫切れ, 入荷, バインダー"
         ],
         reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 61-90",
-        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 2 toàn bộ (Section 1+2)"
+        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 2 toàn bộ (Section 1+2)",
+        audio: []
       },
       {
         num: 7, title: "Đề thi thử số 1 + Phân tích điểm yếu",
@@ -1913,7 +2145,8 @@
           "Thành ngữ kinh doanh: ネバーギブアップ, 即戦力, 風穴をあける"
         ],
         reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 91-118 + Ôn lại bài đọc sai",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 53-64 + Nghe lại các bài sai"
+        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 53-64 + Nghe lại các bài sai - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 53, to: 64 }]
       },
       {
         num: 8, title: "Đề thi thử số 2 + Tổng ôn",
@@ -1931,7 +2164,8 @@
           "Ôn lại thành ngữ và quán dụng ngữ"
         ],
         reading: "Ôn lại toàn bộ bài đọc sai + Đọc lại <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 公式模擬テスト</a>",
-        listening: "Nghe lại toàn bộ track + Tập trung bài sai (<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a> + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>)"
+        listening: "Nghe lại toàn bộ track + Tập trung bài sai (<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a> + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>) - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        audio: [{ book: 'Q4', from: 1, to: 64 }, { book: 'Q1', from: 1, to: 54 }]
       }
     ];
 
@@ -1961,6 +2195,7 @@
         <div class="week-section">
           <h4>&#127911; Nghe hiểu</h4>
           <ul class="listen-list"><li>${w.listening}</li></ul>
+          ${w.audio && w.audio.length ? `<div class="track-row">${renderAudio(w.audio)}</div>` : ''}
         </div>
       </div>
     </div>
@@ -3269,7 +3504,7 @@
         { word: "臨機応変", reading: "りんきおうへん", meaning: "linh hoạt ứng biến", explain: "Linh hoạt ứng biến trước tình huống bất ngờ - tức là có khả năng thích nghi nhanh chóng với những thay đổi. Trong kinh doanh hiện đại, đây là kỹ năng rất cần thiết.", example: "市場の急な変化に対して、臨機応変に戦略を変える必要があります。", exampleReading: "しじょうのきゅうなへんかにたいして、りんきおうへんにせんりゃくをかえるひつようがあります。" },
         { word: "前代未聞", reading: "ぜんだいみもん", meaning: "chưa từng có tiền lệ", explain: "Trước đây chưa bao giờ nghe nói tới - tức là cái gì đó hoàn toàn mới lạ, không có tiền lệ trước đó. Có thể tích cực (phát minh) hay tiêu cực (scandal).", example: "この新しいビジネスモデルは前代未聞で、業界に大きな衝撃を与えました。", exampleReading: "このあたらしいびじねすもでるはぜんだいみもんで、ぎょうかいにおおきなしょうげきをあたえました。" },
         { word: "適材適所", reading: "てきざいてきしょ", meaning: "đúng người đúng việc", explain: "Đưa người phù hợp vào vị trí phù hợp - tức là bố trí nhân sự sao cho mỗi người được làm công việc mà họ có năng lực và hứng thú. Đây là kỹ năng quản lý quan trọng.", example: "適材適所の配置ができれば、チームの生産性は大幅に向上します。", exampleReading: "てきざいてきしょのはいちができれば、ちーむのせいさんせいはおおはばにこうじょうします。" },
-        { word: "責任転嫁", reading: "せきにんてんか", meaning: "đổ trách nhiệm", explain: "Chuyển trách nhiệm sang người khác - tức là không chịu nhận trách nhiệm mà đổ lỗi cho người khác. Trong công ty, đây là hành vi không được chấp thuận.", example: "失敗の原因を他の部門のせいにして、責任転嫁するのは避けるべきです。" , exampleReading: "しっぱいのげんいんをたのぶもんのせいにして、せきにんてんかするのはさけるべきです。" }
+        { word: "責任転嫁", reading: "せきにんてんか", meaning: "đổ trách nhiệm", explain: "Chuyển trách nhiệm sang người khác - tức là không chịu nhận trách nhiệm mà đổ lỗi cho người khác. Trong công ty, đây là hành vi không được chấp thuận.", example: "失敗の原因を他の部門のせいにして、責任転嫁するのは避けるべきです。", exampleReading: "しっぱいのげんいんをたのぶもんのせいにして、せきにんてんかするのはさけるべきです。" }
       ],
       "Tính từ kinh doanh": [
         { word: "効率的な", reading: "こうりつてきな", meaning: "hiệu quả", explain: "効 (hiệu suất) + 率 (tỷ lệ) = mức độ có hiệu quả trong công việc kinh doanh", example: "このプロセスは効率的なので、時間を節約できます。", exampleReading: "このプロセスはこうりつてきなので、じかんをせつやくできます。" },
@@ -4650,23 +4885,31 @@
     }
 
     function playAudio(btn, src) {
+      const fullSrc = new URL(src, window.location).href;
+      const isSameAudio = currentAudio && currentAudio.src === fullSrc;
+      const resetBtn = b => {
+        b.textContent = b.dataset.origLabel || '▶';
+        b.style.background = 'var(--accent)';
+      };
+
+      if (isSameAudio && !currentAudio.paused) {
+        currentAudio.pause();
+        resetBtn(btn);
+        return;
+      }
+
       if (currentAudio) {
         currentAudio.pause();
-        document.querySelectorAll('.play-btn').forEach(b => { b.textContent = '▶'; b.style.background = 'var(--accent)'; });
+        document.querySelectorAll('.play-btn, .track-btn').forEach(resetBtn);
       }
-      if (!currentAudio || currentAudio.src !== new URL(src, window.location).href) {
+      if (!isSameAudio) {
         currentAudio = new Audio(src);
       }
-      if (currentAudio.paused) {
-        currentAudio.play();
-        btn.textContent = '⏸';
-        btn.style.background = '#555';
-        currentAudio.onended = () => { btn.textContent = '▶'; btn.style.background = 'var(--accent)'; };
-      } else {
-        currentAudio.pause();
-        btn.textContent = '▶';
-        btn.style.background = 'var(--accent)';
-      }
+      if (!btn.dataset.origLabel) btn.dataset.origLabel = btn.textContent;
+      currentAudio.play();
+      btn.textContent = '⏸';
+      btn.style.background = '#555';
+      currentAudio.onended = () => resetBtn(btn);
     }
 
     function submitTest() {
@@ -4737,6 +4980,8 @@
       document.getElementById('testResults').style.display = 'none';
       testState = { current: 0, answers: [], started: false, timer: null, timeLeft: 120 * 60, submitted: false };
     }
+
+
 
     // ========================
     // INIT
