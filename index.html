@@ -2380,6 +2380,43 @@
       return audio.map(renderTrackGroup).join('');
     }
 
+    const PDF_BOOKS = {
+      Q1:     { path: 'QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf',                                                                                  label: 'Quyển 1' },
+      Q4:     { path: 'QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf',                                                                  label: 'Quyển 4' },
+      Q4_ANS: { path: 'QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf',                                          label: 'Đáp án' },
+      Q8:     { path: 'QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf',                                                                                                  label: 'Quyển 8' },
+      MCB:    { path: 'Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf',                                                       label: 'Sách MCBooks' }
+    };
+
+    const TRACK_PAGES = {
+      Q4: {
+        '01-08': 1,
+        '09-16': 2,
+        '17-24': 3,
+        '25-32': 4,
+        '53-64': 13
+      },
+      Q4_ANS: {
+        '01-08': 68,
+        '09-16': 71,
+        '17-24': 78,
+        '25-32': 78,
+        '53-64': 92
+      },
+      Q1: {
+        '11-20': 44,
+        '21-30': 70
+      }
+    };
+
+    function pdfLink(bookKey, page, label) {
+      const b = PDF_BOOKS[bookKey];
+      if (!b) return '';
+      const frag = page ? `#page=${page}&zoom=page-fit` : '';
+      const text = label != null ? label : b.label;
+      return `<a href='${b.path}${frag}' target='_blank' class='pdf-link'>📄 ${text}</a>`;
+    }
+
     const weeksData = [
       {
         num: 1, title: "Làm quen cấu trúc BJT & Nền tảng Keigo",
@@ -2396,8 +2433,8 @@
           "Chức vụ: 主任, 係長, 課長, 部長, 常務, 取締役",
           "Keigo đặc biệt: いらっしゃる, おっしゃる, 存じる, 拝見する, 召し上がる"
         ],
-        reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Đọc phần mở đầu + Hướng dẫn làm bài (trang 1-20)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 01-08 (làm quen format nghe) - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        reading: `${pdfLink('MCB')} - Đọc phần mở đầu + Hướng dẫn làm bài (trang 1-20)`,
+        listening: `${pdfLink('Q4', TRACK_PAGES.Q4['01-08'], 'Quyển 4')}: Track 01-08 (làm quen format nghe) - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['01-08'], 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 1, to: 8 }]
       },
       {
@@ -2415,8 +2452,8 @@
           "Báo cáo: 報告, 照会, 回答, 確認, 手配, 段取り",
           "Quán dùng ngữ: 重箱の隅をつつく, もちきり, 思いもよらない"
         ],
-        reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 1: Ngữ pháp & Từ vựng (câu 1-10)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 09-16 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 11-20 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        reading: `${pdfLink('MCB')} - Phần 3 Mục 1: Ngữ pháp & Từ vựng (câu 1-10)`,
+        listening: `${pdfLink('Q4', TRACK_PAGES.Q4['09-16'], 'Quyển 4')}: Track 09-16 + ${pdfLink('Q1', TRACK_PAGES.Q1['11-20'], 'Quyển 1')}: Track 11-20 - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['09-16'], 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 9, to: 19 }, { book: 'Q1', from: 11, to: 20 }]
       },
       {
@@ -2434,9 +2471,9 @@
           "Điện thoại: 承る, 申し伝える, かけ直す, 折り返す",
           "Email: 照会, 回答, 転送, 追信"
         ],
-        reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 2: Diễn đạt (câu 1-10 + giải thích)",
-        listening: `<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 17-24  - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a> <br />
-                    <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 21-30 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>`,
+        reading: `${pdfLink('MCB')} - Phần 3 Mục 2: Diễn đạt (câu 1-10 + giải thích)`,
+        listening: `${pdfLink('Q4', TRACK_PAGES.Q4['17-24'], 'Quyển 4')}: Track 17-24 - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['17-24'], 'Đáp án')} <br />
+                    ${pdfLink('Q1', TRACK_PAGES.Q1['21-30'], 'Quyển 1')}: Track 21-30 - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['17-24'], 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 17, to: 24 }, { book: 'Q1', from: 21, to: 30 }]
       },
       {
@@ -2454,8 +2491,8 @@
           "Kinh tế: 景気判断, 個人消費, 第三次産業, 資本提携",
           "Văn bản nội bộ: 社内掲示, 通知, 引き継ぎ, フレックスタイム"
         ],
-        reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 3: Đọc hiểu câu ngắn (câu 1-15)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 25-32 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        reading: `${pdfLink('MCB')} - Phần 3 Mục 3: Đọc hiểu câu ngắn (câu 1-15)`,
+        listening: `${pdfLink('Q4', TRACK_PAGES.Q4['25-32'], 'Quyển 4')}: Track 25-32 - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['25-32'], 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 25, to: 32 }]
       },
       {
@@ -2473,8 +2510,8 @@
           "Ngoại lai ngữ: プレゼンテーション, レセプション, バックナンバー",
           "Điện thoại: 留守番電話, 伝言メモ, 折り返し電話"
         ],
-        reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 31-60 + Ôn tập lại bài đọc tuần 4",
-        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 1 toàn bộ (Section 1+2+3)",
+        reading: `${pdfLink('Q8', 31)}: trang 31-60 + Ôn tập lại bài đọc tuần 4`,
+        listening: `${pdfLink('MCB')} - Phần 1 toàn bộ (Section 1+2+3)`,
         audio: []
       },
       {
@@ -2492,8 +2529,8 @@
           "Kỹ thuật: 型番, 欠陥, 部品交換, メンテナンス",
           "Mua bán: 代替品, 在庫切れ, 入荷, バインダー"
         ],
-        reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 61-90",
-        listening: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 2 toàn bộ (Section 1+2)",
+        reading: `${pdfLink('Q8', 61)}: trang 61-90`,
+        listening: `${pdfLink('MCB')} - Phần 2 toàn bộ (Section 1+2)`,
         audio: []
       },
       {
@@ -2511,8 +2548,8 @@
           "Đọc hiểu nâng cao: 稟議書, 資本提携, リース, シェア",
           "Thành ngữ kinh doanh: ネバーギブアップ, 即戦力, 風穴をあける"
         ],
-        reading: "<a href='QUYỂN 8. BJT-読解-実力養成問題集-quyển-vàng.pdf' target='_blank' class='pdf-link'>📄 Quyển 8</a>: trang 91-118 + Ôn lại bài đọc sai",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 53-64 + Nghe lại các bài sai - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        reading: `${pdfLink('Q8', 91)}: trang 91-118 + Ôn lại bài đọc sai`,
+        listening: `${pdfLink('Q4', TRACK_PAGES.Q4['53-64'], 'Quyển 4')}: Track 53-64 + Nghe lại các bài sai - ${pdfLink('Q4_ANS', TRACK_PAGES.Q4_ANS['53-64'], 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 53, to: 64 }]
       },
       {
@@ -2530,8 +2567,8 @@
           "Ôn lại keigo: 20 cặp tôn kính-khiêm nhường",
           "Ôn lại thành ngữ và quán dụng ngữ"
         ],
-        reading: "Ôn lại toàn bộ bài đọc sai + Đọc lại <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 公式模擬テスト</a>",
-        listening: "Nghe lại toàn bộ track + Tập trung bài sai (<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a> + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>) - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        reading: `Ôn lại toàn bộ bài đọc sai + Đọc lại ${pdfLink('Q4_ANS', null, '公式模擬テスト')}`,
+        listening: `Nghe lại toàn bộ track + Tập trung bài sai (${pdfLink('Q4', 1, 'Quyển 4')} + ${pdfLink('Q1', null, 'Quyển 1')}) - ${pdfLink('Q4_ANS', null, 'Đáp án')}`,
         audio: [{ book: 'Q4', from: 1, to: 64 }, { book: 'Q1', from: 1, to: 54 }]
       }
     ];
