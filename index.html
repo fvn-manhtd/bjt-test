@@ -626,7 +626,9 @@
       line-height: 1.5;
     }
 
-    .fc-back { position: relative; }
+    .fc-back {
+      position: relative;
+    }
 
     .fc-back .fc-level {
       position: absolute;
@@ -1138,11 +1140,13 @@
       box-shadow: var(--shadow);
       border: 1px solid var(--border);
     }
+
     .search-box {
       position: relative;
       display: flex;
       align-items: center;
     }
+
     .search-box input {
       flex: 1;
       width: 100%;
@@ -1155,11 +1159,13 @@
       transition: border-color .2s, box-shadow .2s;
       outline: none;
     }
+
     .search-box input:focus {
       border-color: var(--accent);
       background: #fff;
       box-shadow: 0 0 0 3px rgba(255, 109, 0, .12);
     }
+
     .search-box::before {
       content: "🔍";
       position: absolute;
@@ -1168,6 +1174,7 @@
       pointer-events: none;
       opacity: .55;
     }
+
     .search-clear {
       position: absolute;
       right: 10px;
@@ -1180,8 +1187,16 @@
       border-radius: 8px;
       display: none;
     }
-    .search-clear:hover { background: #f0f0f0; color: var(--danger); }
-    .search-clear.visible { display: inline-block; }
+
+    .search-clear:hover {
+      background: #f0f0f0;
+      color: var(--danger);
+    }
+
+    .search-clear.visible {
+      display: inline-block;
+    }
+
     .search-filters {
       display: flex;
       flex-wrap: wrap;
@@ -1189,6 +1204,7 @@
       align-items: center;
       margin-top: 14px;
     }
+
     .search-filter {
       display: flex;
       align-items: center;
@@ -1196,6 +1212,7 @@
       font-size: 14px;
       color: var(--text-light);
     }
+
     .search-filter select {
       padding: 7px 10px;
       border: 1px solid var(--border);
@@ -1205,6 +1222,7 @@
       font-size: 14px;
       cursor: pointer;
     }
+
     .search-stats {
       margin-left: auto;
       font-size: 14px;
@@ -1217,6 +1235,7 @@
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 14px;
     }
+
     .search-empty {
       grid-column: 1 / -1;
       text-align: center;
@@ -1226,21 +1245,31 @@
       border-radius: var(--radius);
       border: 1px dashed var(--border);
     }
-    .search-empty-icon { font-size: 42px; margin-bottom: 10px; }
+
+    .search-empty-icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
     .sr-card {
       background: var(--card);
       border: 1px solid var(--border);
       border-left: 4px solid var(--accent2);
       border-radius: 12px;
       padding: 14px 16px;
-      box-shadow: 0 1px 3px rgba(0,0,0,.04);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
       transition: transform .15s, box-shadow .15s;
     }
+
     .sr-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 18px rgba(0,0,0,.08);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
     }
-    .sr-card.src-912 { border-left-color: var(--primary-light); }
+
+    .sr-card.src-912 {
+      border-left-color: var(--primary-light);
+    }
+
     .sr-head {
       display: flex;
       align-items: baseline;
@@ -1248,12 +1277,19 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+
     .sr-word {
       font-size: 22px;
       font-weight: 700;
       color: var(--primary);
     }
-    .sr-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+
+    .sr-badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
     .sr-badge {
       font-size: 11px;
       font-weight: 600;
@@ -1262,29 +1298,61 @@
       letter-spacing: .3px;
       text-transform: uppercase;
     }
-    .sr-badge.src-fc { background: rgba(0,191,165,.12); color: #00796b; }
-    .sr-badge.src-912 { background: rgba(57,73,171,.12); color: var(--primary); }
-    .sr-badge.level-J5 { background: rgba(34,211,238,.15); color: #0891b2; }
-    .sr-badge.level-J4 { background: rgba(52,211,153,.15); color: #059669; }
-    .sr-badge.level-J3 { background: rgba(251,191,36,.18); color: #b45309; }
-    .sr-badge.level-J2 { background: rgba(251,146,60,.18); color: #c2410c; }
-    .sr-badge.level-J1 { background: rgba(244,114,182,.18); color: #be185d; }
+
+    .sr-badge.src-fc {
+      background: rgba(0, 191, 165, .12);
+      color: #00796b;
+    }
+
+    .sr-badge.src-912 {
+      background: rgba(57, 73, 171, .12);
+      color: var(--primary);
+    }
+
+    .sr-badge.level-J5 {
+      background: rgba(34, 211, 238, .15);
+      color: #0891b2;
+    }
+
+    .sr-badge.level-J4 {
+      background: rgba(52, 211, 153, .15);
+      color: #059669;
+    }
+
+    .sr-badge.level-J3 {
+      background: rgba(251, 191, 36, .18);
+      color: #b45309;
+    }
+
+    .sr-badge.level-J2 {
+      background: rgba(251, 146, 60, .18);
+      color: #c2410c;
+    }
+
+    .sr-badge.level-J1 {
+      background: rgba(244, 114, 182, .18);
+      color: #be185d;
+    }
+
     .sr-reading {
       color: var(--accent2);
       font-size: 14px;
       margin-top: 2px;
     }
+
     .sr-meaning {
       margin-top: 8px;
       font-size: 15px;
       font-weight: 500;
       color: var(--text);
     }
+
     .sr-category {
       font-size: 12px;
       color: var(--text-light);
       margin-top: 4px;
     }
+
     .sr-explain {
       margin-top: 10px;
       padding: 8px 10px;
@@ -1294,6 +1362,7 @@
       color: var(--text);
       line-height: 1.5;
     }
+
     .sr-example {
       margin-top: 10px;
       padding: 10px 12px;
@@ -1301,6 +1370,7 @@
       border-left: 3px solid var(--accent);
       border-radius: 6px;
     }
+
     .sr-example-label {
       font-size: 10px;
       font-weight: 700;
@@ -1308,9 +1378,25 @@
       letter-spacing: 1px;
       margin-bottom: 4px;
     }
-    .sr-example-jp { font-size: 14px; color: var(--text); }
-    .sr-example-reading { font-size: 12px; color: var(--text-light); margin-top: 2px; }
-    .sr-example-vi { font-size: 13px; color: var(--primary-light); margin-top: 4px; font-style: italic; }
+
+    .sr-example-jp {
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .sr-example-reading {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 2px;
+    }
+
+    .sr-example-vi {
+      font-size: 13px;
+      color: var(--primary-light);
+      margin-top: 4px;
+      font-style: italic;
+    }
+
     mark.sr-hl {
       background: #fff3b0;
       color: inherit;
@@ -1319,9 +1405,18 @@
     }
 
     @media (max-width: 600px) {
-      .search-filters { gap: 10px; }
-      .search-stats { margin-left: 0; width: 100%; }
-      .search-results { grid-template-columns: 1fr; }
+      .search-filters {
+        gap: 10px;
+      }
+
+      .search-stats {
+        margin-left: 0;
+        width: 100%;
+      }
+
+      .search-results {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ===== READING & REFERENCE SECTIONS ===== */
@@ -1774,12 +1869,14 @@
   <div id="sec-search" class="section">
     <div class="card" style="border-left:4px solid var(--accent);text-align:center">
       <h2 style="color:var(--primary);margin-bottom:6px;">Tìm kiếm từ vựng</h2>
-      <p style="color:var(--text-light)">Tra cứu nhanh theo Kanji, Hiragana/Katakana, Romaji hoặc nghĩa tiếng Việt · Dữ liệu từ Thẻ từ vựng + Flashcard 912 từ</p>
+      <p style="color:var(--text-light)">Tra cứu nhanh theo Kanji, Hiragana/Katakana, Romaji hoặc nghĩa tiếng Việt · Dữ
+        liệu từ Thẻ từ vựng + Flashcard 912 từ</p>
     </div>
 
     <div class="search-wrap">
       <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Nhập từ cần tìm (ví dụ: 会社, かいしゃ, công ty)…" autocomplete="off" />
+        <input type="text" id="searchInput" placeholder="Nhập từ cần tìm (ví dụ: 会社, かいしゃ, công ty)…"
+          autocomplete="off" />
         <button class="search-clear" id="searchClear" onclick="clearSearch()" title="Xóa">✕</button>
       </div>
       <div class="search-filters">
@@ -1793,7 +1890,9 @@
         </label>
         <label class="search-filter">
           <span>Chủ đề:</span>
-          <select id="searchCategory"><option value="all">Tất cả</option></select>
+          <select id="searchCategory">
+            <option value="all">Tất cả</option>
+          </select>
         </label>
         <div class="search-stats" id="searchStats">Gõ để bắt đầu tìm kiếm</div>
       </div>
@@ -2336,7 +2435,8 @@
           "Email: 照会, 回答, 転送, 追信"
         ],
         reading: "<a href='Sách Luyện Thi BJT – Đề Thi Thử Và Đáp Án Kỳ Thi Năng Lực Tiếng Nhật Thương Mại BJT CD.pdf' target='_blank' class='pdf-link'>📄 Sách MCBooks</a> - Phần 3 Mục 2: Diễn đạt (câu 1-10 + giải thích)",
-        listening: "<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 17-24 + <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 21-30 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>",
+        listening: `<a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/BJT公式模擬テスト＆ガイド Siêu Tốc.pdf' target='_blank' class='pdf-link'>📄 Quyển 4</a>: Track 17-24  - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a> <br />
+                    <a href='QUYỂN 1. わかるビジネス日本語quyển xanh/わかるビジネス日本語.pdf' target='_blank' class='pdf-link'>📄 Quyển 1</a>: Track 21-30 - <a href='QUYỂN 4. BJT公式模擬テスト＆ガイド Siêu Tốc/Có đáp án BJTビジネス日本語能力テスト公式模擬テスト＆ガイド.pdf' target='_blank' class='pdf-link'>📄 Đáp án</a>`,
         audio: [{ book: 'Q4', from: 17, to: 24 }, { book: 'Q1', from: 21, to: 30 }]
       },
       {
@@ -5246,25 +5346,25 @@
 
     // Minimal romaji -> hiragana table (covers the common cases BJT learners type)
     const ROMAJI_MAP = {
-      kya:'きゃ',kyu:'きゅ',kyo:'きょ',sha:'しゃ',shu:'しゅ',sho:'しょ',cha:'ちゃ',chu:'ちゅ',cho:'ちょ',
-      nya:'にゃ',nyu:'にゅ',nyo:'にょ',hya:'ひゃ',hyu:'ひゅ',hyo:'ひょ',mya:'みゃ',myu:'みゅ',myo:'みょ',
-      rya:'りゃ',ryu:'りゅ',ryo:'りょ',gya:'ぎゃ',gyu:'ぎゅ',gyo:'ぎょ',ja:'じゃ',ju:'じゅ',jo:'じょ',
-      bya:'びゃ',byu:'びゅ',byo:'びょ',pya:'ぴゃ',pyu:'ぴゅ',pyo:'ぴょ',
-      a:'あ',i:'い',u:'う',e:'え',o:'お',
-      ka:'か',ki:'き',ku:'く',ke:'け',ko:'こ',
-      sa:'さ',shi:'し',su:'す',se:'せ',so:'そ',
-      ta:'た',chi:'ち',tsu:'つ',te:'て',to:'と',
-      na:'な',ni:'に',nu:'ぬ',ne:'ね',no:'の',
-      ha:'は',hi:'ひ',fu:'ふ',he:'へ',ho:'ほ',
-      ma:'ま',mi:'み',mu:'む',me:'め',mo:'も',
-      ya:'や',yu:'ゆ',yo:'よ',
-      ra:'ら',ri:'り',ru:'る',re:'れ',ro:'ろ',
-      wa:'わ',wo:'を',n:'ん',
-      ga:'が',gi:'ぎ',gu:'ぐ',ge:'げ',go:'ご',
-      za:'ざ',ji:'じ',zu:'ず',ze:'ぜ',zo:'ぞ',
-      da:'だ',di:'ぢ',du:'づ',de:'で',do:'ど',
-      ba:'ば',bi:'び',bu:'ぶ',be:'べ',bo:'ぼ',
-      pa:'ぱ',pi:'ぴ',pu:'ぷ',pe:'ぺ',po:'ぽ'
+      kya: 'きゃ', kyu: 'きゅ', kyo: 'きょ', sha: 'しゃ', shu: 'しゅ', sho: 'しょ', cha: 'ちゃ', chu: 'ちゅ', cho: 'ちょ',
+      nya: 'にゃ', nyu: 'にゅ', nyo: 'にょ', hya: 'ひゃ', hyu: 'ひゅ', hyo: 'ひょ', mya: 'みゃ', myu: 'みゅ', myo: 'みょ',
+      rya: 'りゃ', ryu: 'りゅ', ryo: 'りょ', gya: 'ぎゃ', gyu: 'ぎゅ', gyo: 'ぎょ', ja: 'じゃ', ju: 'じゅ', jo: 'じょ',
+      bya: 'びゃ', byu: 'びゅ', byo: 'びょ', pya: 'ぴゃ', pyu: 'ぴゅ', pyo: 'ぴょ',
+      a: 'あ', i: 'い', u: 'う', e: 'え', o: 'お',
+      ka: 'か', ki: 'き', ku: 'く', ke: 'け', ko: 'こ',
+      sa: 'さ', shi: 'し', su: 'す', se: 'せ', so: 'そ',
+      ta: 'た', chi: 'ち', tsu: 'つ', te: 'て', to: 'と',
+      na: 'な', ni: 'に', nu: 'ぬ', ne: 'ね', no: 'の',
+      ha: 'は', hi: 'ひ', fu: 'ふ', he: 'へ', ho: 'ほ',
+      ma: 'ま', mi: 'み', mu: 'む', me: 'め', mo: 'も',
+      ya: 'や', yu: 'ゆ', yo: 'よ',
+      ra: 'ら', ri: 'り', ru: 'る', re: 'れ', ro: 'ろ',
+      wa: 'わ', wo: 'を', n: 'ん',
+      ga: 'が', gi: 'ぎ', gu: 'ぐ', ge: 'げ', go: 'ご',
+      za: 'ざ', ji: 'じ', zu: 'ず', ze: 'ぜ', zo: 'ぞ',
+      da: 'だ', di: 'ぢ', du: 'づ', de: 'で', do: 'ど',
+      ba: 'ば', bi: 'び', bu: 'ぶ', be: 'べ', bo: 'ぼ',
+      pa: 'ぱ', pi: 'ぴ', pu: 'ぷ', pe: 'ぺ', po: 'ぽ'
     };
     function romajiToHiragana(input) {
       const s = input.toLowerCase();
@@ -5272,7 +5372,7 @@
       while (i < s.length) {
         const c = s[i];
         // Small tsu: doubled consonant
-        if (i + 1 < s.length && c === s[i+1] && 'kstnhfmyrwgzdbpjc'.includes(c)) {
+        if (i + 1 < s.length && c === s[i + 1] && 'kstnhfmyrwgzdbpjc'.includes(c)) {
           out += 'っ'; i++; continue;
         }
         let matched = false;
@@ -5342,7 +5442,7 @@
     }
 
     function escapeHTML(s) {
-      return String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+      return String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
     }
     function highlight(text, needles) {
       if (!text) return '';
