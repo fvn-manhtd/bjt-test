@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BJT Ghép từ — Thaolejp 45 bài</title>
+<style>
+:root {
+  --primary: #1a237e; --primary-light: #3949ab;
+  --accent: #ff6d00; --accent2: #00bfa5;
+  --bg: #f5f7fa; --card: #fff;
+  --text: #263238; --text-light: #607d8b; --border: #e0e0e0;
+  --success: #43a047; --danger: #e53935; --warning: #ff8f00;
+  --shadow: 0 2px 12px rgba(0,0,0,.08); --radius: 12px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { height:100%; }
+body {
+  font-family:'Segoe UI', system-ui, -apple-system, sans-serif;
+  background:var(--bg); color:var(--text); overflow-x:hidden; overflow-y:auto;
+}
+button { font-family:inherit; cursor:pointer; }
+.screen { display:none; max-width:1100px; margin:0 auto; padding:16px 16px 40px; }
+.screen.active { display:block; }
+
+/* ---------- START ---------- */
+.hero {
+  background:linear-gradient(135deg, var(--primary), var(--primary-light));
+  color:#fff; border-radius:var(--radius); padding:22px 24px; margin-bottom:16px;
+  box-shadow:var(--shadow);
+}
+.hero h1 { font-size:1.5rem; margin-bottom:4px; }
+.hero p { opacity:.85; font-size:.9rem; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px 20px; margin-bottom:16px; }
+.card h3 { font-size:1rem; color:var(--primary); margin-bottom:10px; }
+.resume-row { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+.resume-row .info { font-size:.95rem; }
+.resume-row .info b { color:var(--primary); }
+.btn { border:none; border-radius:10px; padding:11px 22px; font-size:.95rem; font-weight:600; transition:transform .15s, box-shadow .15s; }
+.btn:hover:not(:disabled) { transform:translateY(-1px); box-shadow:var(--shadow); }
+.btn:disabled { opacity:.45; cursor:not-allowed; }
+.btn-primary { background:var(--accent); color:#fff; }
+.btn-secondary { background:#e8eaf6; color:var(--primary); }
+.btn-ghost { background:transparent; color:var(--text-light); border:1px solid var(--border); }
+.btn-danger { background:#ffebee; color:var(--danger); }
+.lesson-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(58px,1fr)); gap:8px; }
+.lesson-btn {
+  border:2px solid var(--border); background:var(--card); border-radius:10px; padding:10px 4px;
+  font-weight:700; color:var(--text); font-size:.95rem; position:relative;
+}
+.lesson-btn:hover { border-color:var(--primary-light); color:var(--primary); }
+.lesson-btn.current { border-color:var(--accent); background:#fff3e0; color:var(--accent); }
+.lesson-btn.cleared { border-color:var(--success); background:#e8f5e9; color:var(--success); }
+.lesson-btn small { display:block; font-size:.65rem; font-weight:500; opacity:.75; }
+.stats-row { display:flex; flex-wrap:wrap; gap:10px; }
+.stat { flex:1 1 120px; background:#f0f2f8; border-radius:10px; padding:10px 12px; text-align:center; }
+.stat .v { font-size:1.3rem; font-weight:700; color:var(--primary); }
+.stat .l { font-size:.75rem; color:var(--text-light); }
+.actions { display:flex; flex-wrap:wrap; gap:10px; }
+
+/* ---------- PLAY ---------- */
+.hud {
+  display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px;
+  background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
+  padding:10px 14px; margin-bottom:12px; box-shadow:var(--shadow); font-size:.9rem;
+}
+.hud .title { font-weight:700; color:var(--primary); margin-right:auto; }
+.hud .title small { font-weight:500; color:var(--text-light); margin-left:6px; }
+.hud .m { white-space:nowrap; }
+.hud .m b { font-size:1.05rem; }
+.hud .m.score b { color:var(--accent); }
+.hud .m.combo b { color:var(--accent2); }
+.hud .m.miss b { color:var(--danger); }
+.hud .m.time b { font-variant-numeric:tabular-nums; }
+.hud .btns { display:flex; gap:6px; }
+.hud .btn { padding:7px 12px; font-size:.85rem; }
+.progress { height:6px; background:#e8eaf6; border-radius:3px; overflow:hidden; margin-bottom:12px; }
+.progress > div { height:100%; background:linear-gradient(90deg, var(--accent2), var(--primary-light)); transition:width .3s; }
+
+.boards { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.board h4 { font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; color:var(--text-light); margin:0 0 8px 4px; }
+.grid { display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:repeat(3,1fr); gap:8px; height:min(62vh, 540px); }
+.tile {
+  display:flex; flex-direction:column; justify-content:center; align-items:center; gap:3px;
+  padding:6px 8px; overflow:hidden; background:var(--card); border:2px solid var(--border);
+  border-radius:var(--radius); text-align:center; color:var(--text); min-width:0;
+  transition:background .15s, border-color .15s, transform .1s; user-select:none; -webkit-tap-highlight-color:transparent;
+}
+.tile.w { border-left:4px solid var(--primary); }
+.tile.m { border-left:4px solid var(--accent2); }
+.tile:hover:not(.ok) { transform:translateY(-1px); border-color:var(--primary-light); }
+.tile .main { font-size:clamp(14px, 2.1vw, 22px); line-height:1.25; font-weight:600; overflow-wrap:anywhere; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; max-width:100%; }
+.tile.m .main { font-size:clamp(12px, 1.5vw, 16px); font-weight:500; -webkit-line-clamp:3; }
+.tile .sub { font-size:11px; color:var(--text-light); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100%; }
+.tile .tag { font-size:9px; color:var(--accent); background:#fff3e0; border-radius:4px; padding:0 4px; }
+.tile.sel { background:var(--primary-light); border-color:var(--primary-light); color:#fff; }
+.tile.sel .sub, .tile.sel .tag { color:#fff; background:transparent; }
+.tile.ok { background:#e8f5e9; border-color:var(--success); color:#78909c; pointer-events:none; }
+.tile.ok .main { text-decoration:none; }
+.tile.bad, .tile.sel.bad { background:#ffebee; border-color:var(--danger); color:var(--danger); animation:shake .4s; }
+.tile.sel.bad .sub, .tile.sel.bad .tag { color:var(--danger); }
+.tile.ok.filler { opacity:.55; }
+@keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-6px)} 40%{transform:translateX(6px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
+@keyframes pop { 0%{transform:scale(1)} 50%{transform:scale(1.06)} 100%{transform:scale(1)} }
+.tile.ok.just { animation:pop .3s; }
+@media (prefers-reduced-motion: reduce) { .tile.bad, .tile.ok.just { animation:none; } }
+
+/* ---------- OVERLAY ---------- */
+.overlay { display:none; position:fixed; inset:0; background:rgba(26,35,126,.55); z-index:50; align-items:center; justify-content:center; padding:16px; }
+.overlay.show { display:flex; }
+.modal { background:var(--card); border-radius:16px; padding:24px 26px; max-width:460px; width:100%; box-shadow:0 10px 40px rgba(0,0,0,.25); text-align:center; }
+.modal h2 { color:var(--primary); margin-bottom:6px; font-size:1.4rem; }
+.modal .sub { color:var(--text-light); font-size:.9rem; margin-bottom:14px; }
+.modal .stats-row { margin-bottom:14px; }
+.modal .actions { justify-content:center; }
+.auto-bar { height:4px; background:#e8eaf6; border-radius:2px; overflow:hidden; margin:10px 0 14px; }
+.auto-bar > div { height:100%; background:var(--accent); width:0; }
+.auto-bar.run > div { animation:fill 1.6s linear forwards; }
+@keyframes fill { from{width:0} to{width:100%} }
+
+/* hint modal */
+.hint-body { text-align:left; }
+.hint-word { font-size:1.6rem; font-weight:700; color:var(--primary); }
+.hint-read { color:var(--text-light); margin-bottom:6px; }
+.hint-mean { background:#e0f2f1; border-left:3px solid var(--accent2); padding:8px 10px; border-radius:6px; margin:10px 0; font-size:.95rem; }
+.hint-ex { margin-top:8px; }
+.hint-ex .ja { font-size:1rem; color:var(--text); margin-bottom:2px; }
+.hint-ex .vi { font-size:.88rem; color:var(--text-light); margin-bottom:8px; }
+.hint-note { font-size:.82rem; color:var(--text-light); border-top:1px dashed var(--border); padding-top:8px; margin-top:8px; }
+.hint-cost { font-size:.8rem; color:var(--warning); margin-top:6px; }
+
+/* wrong list */
+.wrong-list { max-height:260px; overflow:auto; border:1px solid var(--border); border-radius:10px; }
+.wrong-list div { display:flex; justify-content:space-between; gap:10px; padding:7px 12px; border-bottom:1px solid var(--border); font-size:.9rem; }
+.wrong-list div:last-child { border-bottom:none; }
+.wrong-list .cnt { color:var(--danger); font-weight:700; white-space:nowrap; }
+.toast { position:fixed; left:50%; bottom:18px; transform:translateX(-50%); background:var(--primary); color:#fff; padding:8px 16px; border-radius:20px; font-size:.85rem; opacity:0; transition:opacity .25s; pointer-events:none; z-index:60; }
+.toast.show { opacity:1; }
+
+@media (max-width: 640px) {
+  .screen { padding:10px 10px 30px; }
+  .boards { grid-template-columns:1fr; gap:12px; }
+  .grid { height:auto; grid-template-rows:none; }
+  .tile { min-height:64px; padding:6px; }
+  .tile .main { font-size:15px; }
+  .tile.m .main { font-size:12.5px; }
+  .hud { font-size:.8rem; gap:6px 10px; padding:8px 10px; }
+  .hud .m b { font-size:.95rem; }
+  .hud .title { width:100%; }
+  .hud .total { display:none; }
+  .hero { padding:16px; }
+  .hero h1 { font-size:1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ START ============ -->
+<div id="scr-start" class="screen active">
+  <div class="hero">
+    <h1>🎮 Ghép từ vựng BJT</h1>
+    <p>Chinh phục từ vựng BJT (Thaolejp) · <span id="start-meta"></span></p>
+  </div>
+
+  <div class="card" id="resume-card" style="display:none">
+    <div class="resume-row">
+      <div class="info" id="resume-info"></div>
+      <div class="actions">
+        <button class="btn btn-primary" onclick="resumeGame()">▶ Chơi tiếp</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Chọn bài để bắt đầu</h3>
+    <div class="lesson-grid" id="lesson-grid"></div>
+  </div>
+
+  <div class="card">
+    <h3>Ôn tập &amp; thống kê</h3>
+    <div class="stats-row" style="margin-bottom:14px">
+      <div class="stat"><div class="v" id="st-best">0</div><div class="l">Điểm cao nhất</div></div>
+      <div class="stat"><div class="v" id="st-rounds">0</div><div class="l">Màn đã qua</div></div>
+      <div class="stat"><div class="v" id="st-lessons">0</div><div class="l">Bài hoàn thành</div></div>
+      <div class="stat"><div class="v" id="st-time">0:00</div><div class="l">Tổng thời gian</div></div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-secondary" id="btn-review" onclick="startReview()">📝 Ôn từ sai (0)</button>
+      <button class="btn btn-ghost" id="btn-wronglist" onclick="toggleWrongList()">Xem danh sách từ sai</button>
+      <button class="btn btn-danger" onclick="resetAll()">Đặt lại tiến độ</button>
+    </div>
+    <div class="wrong-list" id="wrong-list" style="display:none;margin-top:12px"></div>
+  </div>
+</div>
+
+<!-- ============ PLAY ============ -->
+<div id="scr-play" class="screen">
+  <div class="hud">
+    <div class="title" id="hud-title">Bài 1 <small>Màn 1/6 · 0/50 từ</small></div>
+    <div class="m score">Điểm <b id="hud-score">0</b></div>
+    <div class="m combo">Combo <b id="hud-combo">×0</b></div>
+    <div class="m miss">Sai <b id="hud-miss">0</b></div>
+    <div class="m time">⏱ <b id="hud-round">0:00</b></div>
+    <div class="m time total">Σ <b id="hud-total">0:00</b></div>
+    <div class="btns">
+      <button class="btn btn-secondary" id="btn-hint" onclick="showHint()" disabled>💡 Gợi ý</button>
+      <button class="btn btn-ghost" onclick="goStart()">☰ Menu</button>
+    </div>
+  </div>
+  <div class="progress"><div id="hud-progress" style="width:0%"></div></div>
+
+  <div class="boards">
+    <div class="board"><h4>Từ vựng</h4><div class="grid" id="grid-w"></div></div>
+    <div class="board"><h4>Nghĩa</h4><div class="grid" id="grid-m"></div></div>
+  </div>
+</div>
+
+<!-- ============ OVERLAYS ============ -->
+<div class="overlay" id="ov-clear">
+  <div class="modal">
+    <h2 id="ov-clear-title">🎉 Qua màn!</h2>
+    <div class="sub" id="ov-clear-sub"></div>
+    <div class="stats-row">
+      <div class="stat"><div class="v" id="ov-time">0:00</div><div class="l">Thời gian màn</div></div>
+      <div class="stat"><div class="v" id="ov-miss">0</div><div class="l">Ghép sai</div></div>
+      <div class="stat"><div class="v" id="ov-bonus">+0</div><div class="l">Điểm thưởng</div></div>
+    </div>
+    <div class="auto-bar" id="auto-bar"><div></div></div>
+    <div class="actions" id="ov-clear-actions">
+      <button class="btn btn-primary" onclick="nextRound()">Tiếp tục ngay →</button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="ov-hint" onclick="if(event.target===this)closeHint()">
+  <div class="modal hint-body">
+    <div class="hint-word" id="hint-word"></div>
+    <div class="hint-read" id="hint-read"></div>
+    <div class="hint-mean" id="hint-mean"></div>
+    <div class="hint-ex" id="hint-ex"></div>
+    <div class="hint-note" id="hint-note"></div>
+    <div class="hint-cost" id="hint-cost"></div>
+    <div class="actions" style="justify-content:center;margin-top:12px">
+      <button class="btn btn-secondary" onclick="closeHint()">Đóng</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="vocab_thaole.js"></script>
+<script>
+(function () {
+  'use strict';
+  if (typeof THAOLE_VOCAB === 'undefined') {
+    document.body.innerHTML = '<p style="padding:30px">Không tải được vocab_thaole.js</p>'; return;
+  }
+
+  // ---------- data ----------
+  const ROUND = 9;
+  const KEY = 'bjt_match_v1';
+  const byId = new Map(), byLesson = new Map();
+  THAOLE_VOCAB.forEach(w => {
+    byId.set(w.id, w);
+    if (!byLesson.has(w.lesson)) byLesson.set(w.lesson, []);
+    byLesson.get(w.lesson).push(w);
+  });
+  const LESSONS = [...byLesson.keys()].sort((a, b) => a - b);
+  const LAST = LESSONS[LESSONS.length - 1];
+
+  // ---------- state ----------
+  const fresh = () => ({
+    v: 1, dataCount: THAOLE_VOCAB.length, lesson: 1, done: [], score: 0, best: 0, totalMs: 0,
+    stats: { rounds: 0, matches: 0, mistakes: 0, hints: 0, lessonsCleared: 0 },
+    cleared: {}, wrong: {}, round: null, updated: Date.now()
+  });
+  let S = load();
+  function load() {
+    try {
+      const s = JSON.parse(localStorage.getItem(KEY));
+      if (s && s.v === 1 && s.dataCount === THAOLE_VOCAB.length) return Object.assign(fresh(), s);
+    } catch (e) {}
+    return fresh();
+  }
+  function save() { S.updated = Date.now(); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+
+  // round-local (not persisted except via S.round)
+  let R = null;            // {mode, ids, matched:Set, mistakes, hinted:Set, fillers:Set, wrongHere:Set, orderW, orderM, combo}
+  let sel = { w: null, m: null };
+  let locked = false, roundStart = 0, pausedAt = 0, timer = null, autoTimer = null, lastMatchAt = 0;
+  let reviewQueue = [];
+
+  // ---------- helpers ----------
+  const $ = id => document.getElementById(id);
+  const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  const fmt = ms => { const s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  function toast(msg) { const t = $('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('show'), 1600); }
+  const wrongCount = () => Object.values(S.wrong).filter(x => x.c > 0).length;
+  function showScreen(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
+
+  // pick up to n words, avoiding duplicate meaning text
+  function pickDistinct(cands, n, taken) {
+    const out = [];
+    for (const w of cands) {
+      if (out.length >= n) break;
+      const k = w.short.toLowerCase();
+      if (taken.has(k)) continue;
+      taken.add(k); out.push(w);
+    }
+    return out;
+  }
+
+  // ---------- round building ----------
+  function buildLessonRound() {
+    const all = byLesson.get(S.lesson);
+    const doneSet = new Set(S.done);
+    const taken = new Set();
+    let pick = pickDistinct(shuffle(all.filter(w => !doneSet.has(w.id))), ROUND, taken);
+    const fillers = new Set();
+    if (pick.length < ROUND) {
+      const pad = pickDistinct(shuffle(all.filter(w => doneSet.has(w.id))), ROUND - pick.length, taken);
+      pad.forEach(w => fillers.add(w.id)); pick = pick.concat(pad);
+    }
+    if (pick.length < ROUND) {           // bài quá nhỏ: mượn bài kế
+      const nxt = byLesson.get(S.lesson % LAST + 1) || [];
+      const pad = pickDistinct(shuffle(nxt), ROUND - pick.length, taken);
+      pad.forEach(w => fillers.add(w.id)); pick = pick.concat(pad);
+    }
+    return makeRound('lesson', pick.map(w => w.id), fillers);
+  }
+  function buildReviewRound() {
+    const taken = new Set();
+    const fillers = new Set();
+    let pick = pickDistinct(reviewQueue.map(id => byId.get(id)), ROUND, taken);
+    reviewQueue = reviewQueue.filter(id => !pick.some(w => w.id === id));
+    if (pick.length < ROUND) {
+      const lessons = new Set(pick.map(w => w.lesson));
+      const pool = THAOLE_VOCAB.filter(w => lessons.has(w.lesson) && !pick.some(p => p.id === w.id));
+      const pad = pickDistinct(shuffle(pool.length ? pool : THAOLE_VOCAB), ROUND - pick.length, taken);
+      pad.forEach(w => fillers.add(w.id)); pick = pick.concat(pad);
+    }
+    return makeRound('review', pick.map(w => w.id), fillers);
+  }
+  function makeRound(mode, ids, fillers, restore) {
+    R = {
+      mode, ids, fillers,
+      matched: new Set(restore ? restore.matched : []),
+      mistakes: restore ? restore.mistakes : 0,
+      hinted: new Set(restore ? restore.hinted : []),
+      wrongHere: new Set(restore ? restore.wrongHere : []),
+      orderW: restore ? restore.orderW : shuffle(ids),
+      orderM: restore ? restore.orderM : shuffle(ids),
+      combo: restore ? restore.combo : 0,
+      elapsed: restore ? restore.elapsed : 0
+    };
+    persistRound(); return R;
+  }
+  function persistRound() {
+    S.round = R ? {
+      mode: R.mode, ids: R.ids, fillers: [...R.fillers], matched: [...R.matched], mistakes: R.mistakes,
+      hinted: [...R.hinted], wrongHere: [...R.wrongHere], orderW: R.orderW, orderM: R.orderM, combo: R.combo,
+      elapsed: R.elapsed + (roundStart ? performance.now() - roundStart : 0)
+    } : null;
+    save();
+  }
+
+  // ---------- rendering ----------
+  function renderRound() {
+    sel = { w: null, m: null }; locked = false; lastMatchAt = 0;
+    const gw = $('grid-w'), gm = $('grid-m');
+    gw.innerHTML = ''; gm.innerHTML = '';
+    // duplicates of short text across the round → show full meaning instead
+    const shorts = {}; R.ids.forEach(id => { const k = byId.get(id).short.toLowerCase(); shorts[k] = (shorts[k] || 0) + 1; });
+    R.orderW.forEach(id => {
+      const w = byId.get(id);
+      const b = document.createElement('button');
+      b.className = 'tile w' + (R.matched.has(id) ? ' ok' : '') + (R.fillers.has(id) ? ' filler' : '');
+      b.dataset.id = id;
+      const sub = w.reading || w.alt || '';
+      b.innerHTML = '<span class="main">' + esc(w.word) + (w.suru ? '<span style="font-size:.7em;opacity:.7">（する）</span>' : '') + '</span>' +
+        (sub ? '<span class="sub">' + esc(sub) + '</span>' : '') +
+        (w.tag ? '<span class="tag">' + esc(w.tag) + '</span>' : '');
+      b.onclick = () => onTile('w', id, b);
+      gw.appendChild(b);
+    });
+    R.orderM.forEach(id => {
+      const w = byId.get(id);
+      const b = document.createElement('button');
+      b.className = 'tile m' + (R.matched.has(id) ? ' ok' : '') + (R.fillers.has(id) ? ' filler' : '');
+      b.dataset.id = id;
+      const txt = shorts[w.short.toLowerCase()] > 1 ? w.meaning : w.short;
+      b.title = w.meaning;
+      b.innerHTML = '<span class="main">' + esc(txt) + '</span>';
+      b.onclick = () => onTile('m', id, b);
+      gm.appendChild(b);
+    });
+    requestAnimationFrame(fitText);
+    updateHud();
+  }
+  function fitText() {
+    document.querySelectorAll('.tile').forEach(t => {
+      const m = t.querySelector('.main'); if (!m) return;
+      m.style.fontSize = '';
+      let fs = parseFloat(getComputedStyle(m).fontSize);
+      let guard = 12;
+      while (guard-- > 0 && fs > 11 && (t.scrollHeight > t.clientHeight + 1 || m.scrollHeight > m.clientHeight + 1)) {
+        fs -= 1; m.style.fontSize = fs + 'px';
+      }
+    });
+  }
+  function updateHud() {
+    if (!R) return;
+    if (R.mode === 'lesson') {
+      const total = byLesson.get(S.lesson).length;
+      const doneN = S.done.length;
+      const roundNo = Math.floor(doneN / ROUND) + 1, rounds = Math.ceil(total / ROUND);
+      $('hud-title').innerHTML = 'Bài ' + S.lesson + ' <small>Màn ' + roundNo + '/' + rounds + ' · ' + doneN + '/' + total + ' từ</small>';
+      $('hud-progress').style.width = Math.round(100 * doneN / total) + '%';
+    } else {
+      $('hud-title').innerHTML = 'Ôn từ sai <small>còn ' + (reviewQueue.length + R.ids.filter(id => !R.fillers.has(id) && !R.matched.has(id)).length) + ' từ</small>';
+      $('hud-progress').style.width = '0%';
+    }
+    $('hud-score').textContent = S.score;
+    $('hud-combo').textContent = '×' + R.combo;
+    $('hud-miss').textContent = R.mistakes;
+    $('btn-hint').disabled = !(sel.w || sel.m);
+  }
+  function paintSel() {
+    document.querySelectorAll('.tile').forEach(t => t.classList.remove('sel'));
+    if (sel.w) document.querySelector('.tile.w[data-id="' + sel.w + '"]').classList.add('sel');
+    if (sel.m) document.querySelector('.tile.m[data-id="' + sel.m + '"]').classList.add('sel');
+    $('btn-hint').disabled = !(sel.w || sel.m);
+  }
+
+  // ---------- timer ----------
+  function startTimer() {
+    roundStart = performance.now() - (R.elapsed || 0); R.elapsed = 0;
+    clearInterval(timer);
+    timer = setInterval(tick, 250); tick();
+  }
+  function roundMs() { return roundStart ? performance.now() - roundStart : (R ? R.elapsed : 0); }
+  function tick() {
+    $('hud-round').textContent = fmt(roundMs());
+    $('hud-total').textContent = fmt(S.totalMs + roundMs());
+  }
+  function stopTimer() { clearInterval(timer); timer = null; const ms = roundMs(); roundStart = 0; return ms; }
+  document.addEventListener('visibilitychange', () => {
+    if (!R || !$('scr-play').classList.contains('active')) return;
+    if (document.hidden) { pausedAt = performance.now(); clearInterval(timer); timer = null; }
+    else if (pausedAt) { roundStart += performance.now() - pausedAt; pausedAt = 0; timer = setInterval(tick, 250); }
+  });
+
+  // ---------- gameplay ----------
+  function onTile(side, id, el) {
+    if (locked || R.matched.has(id)) return;
+    sel[side] = (sel[side] === id) ? null : id;
+    paintSel();
+    if (sel.w && sel.m) check();
+  }
+  function check() {
+    const wEl = document.querySelector('.tile.w[data-id="' + sel.w + '"]');
+    const mEl = document.querySelector('.tile.m[data-id="' + sel.m + '"]');
+    if (sel.w === sel.m) {
+      const id = sel.w;
+      R.matched.add(id);
+      const now = performance.now();
+      const fast = lastMatchAt && (now - lastMatchAt < 3000) ? 5 : 0;
+      lastMatchAt = now;
+      const gain = 10 + 2 * Math.min(R.combo, 5) + fast;
+      R.combo++; S.score += gain; S.stats.matches++;
+      if (!R.wrongHere.has(id) && !R.hinted.has(id) && S.wrong[id] && S.wrong[id].c > 0) {
+        S.wrong[id].c--; if (S.wrong[id].c <= 0) delete S.wrong[id];
+      }
+      [wEl, mEl].forEach(e => { e.classList.remove('sel'); e.classList.add('ok', 'just'); });
+      sel = { w: null, m: null }; paintSel(); updateHud(); persistRound();
+      toast('+' + gain + (R.combo > 1 ? '  combo ×' + R.combo : ''));
+      if (R.matched.size === R.ids.length) setTimeout(roundClear, 350);
+    } else {
+      locked = true;
+      R.mistakes++; S.stats.mistakes++; R.combo = 0; S.score = Math.max(0, S.score - 3);
+      [sel.w, sel.m].forEach(id => {
+        R.wrongHere.add(id);
+        if (!R.fillers.has(id) || R.mode === 'review') {
+          const w = S.wrong[id] || { c: 0, t: 0 };
+          w.c++; w.t = Date.now(); S.wrong[id] = w;
+        }
+      });
+      [wEl, mEl].forEach(e => e.classList.add('bad'));
+      updateHud(); persistRound();
+      setTimeout(() => {
+        [wEl, mEl].forEach(e => e.classList.remove('bad', 'sel'));
+        sel = { w: null, m: null }; locked = false; paintSel();
+      }, 450);
+    }
+  }
+  function roundClear() {
+    const ms = stopTimer();
+    lastMode = R.mode; lastRoundMistakes = R.mistakes;
+    S.totalMs += ms; S.stats.rounds++;
+    let bonus = (R.mistakes === 0 ? 20 : R.mistakes === 1 ? 10 : 0) + Math.max(0, 30 - Math.floor(ms / 1000));
+    S.score += bonus; S.best = Math.max(S.best, S.score); $('hud-score').textContent = S.score;
+    let lessonDone = false;
+    if (R.mode === 'lesson') {
+      const newIds = R.ids.filter(id => !R.fillers.has(id));
+      S.done = [...new Set(S.done.concat(newIds))];
+      if (S.done.length >= byLesson.get(S.lesson).length) lessonDone = true;
+    }
+    R = null; S.round = null; save();
+
+    $('ov-time').textContent = fmt(ms);
+    $('ov-miss').textContent = String(lastRoundMistakes);
+    $('ov-bonus').textContent = '+' + bonus;
+    const bar = $('auto-bar'); bar.classList.remove('run');
+    clearTimeout(autoTimer);
+    if (lessonDone) {
+      const finished = S.lesson;
+      S.cleared[finished] = (S.cleared[finished] || 0) + 1; S.stats.lessonsCleared++;
+      S.lesson = finished % LAST + 1; S.done = []; save();
+      $('ov-clear-title').textContent = '🏆 Hoàn thành Bài ' + finished + '!';
+      $('ov-clear-sub').textContent = 'Tiếp theo: Bài ' + S.lesson + (S.lesson === 1 ? ' (quay vòng từ đầu)' : '');
+      $('ov-clear-actions').innerHTML = '<button class="btn btn-primary" onclick="nextRound()">Bài ' + S.lesson + ' →</button>' +
+        '<button class="btn btn-secondary" onclick="replayLesson(' + finished + ')">Chơi lại Bài ' + finished + '</button>' +
+        '<button class="btn btn-ghost" onclick="goStart()">Menu</button>';
+    } else if (lastMode === 'review' && reviewQueue.length === 0) {
+      $('ov-clear-title').textContent = '✅ Đã ôn hết từ sai!';
+      $('ov-clear-sub').textContent = 'Còn ' + wrongCount() + ' từ chưa thuộc hẳn.';
+      $('ov-clear-actions').innerHTML = '<button class="btn btn-primary" onclick="goStart()">Về menu</button>' +
+        (wrongCount() ? '<button class="btn btn-secondary" onclick="startReview()">Ôn tiếp</button>' : '');
+    } else {
+      $('ov-clear-title').textContent = '🎉 Qua màn!';
+      $('ov-clear-sub').textContent = 'Điểm: ' + S.score;
+      $('ov-clear-actions').innerHTML = '<button class="btn btn-primary" onclick="nextRound()">Tiếp tục ngay →</button>';
+      void bar.offsetWidth; bar.classList.add('run');
+      autoTimer = setTimeout(nextRound, 1600);
+    }
+    $('ov-clear').classList.add('show');
+    renderStart();
+  }
+  let lastMode = 'lesson', lastRoundMistakes = 0;
+
+  function nextRound() {
+    clearTimeout(autoTimer);
+    $('ov-clear').classList.remove('show');
+    if (lastMode === 'review') {
+      if (reviewQueue.length === 0) { goStart(); return; }
+      buildReviewRound();
+    } else buildLessonRound();
+    showScreen('scr-play'); renderRound(); startTimer();
+  }
+
+  // ---------- hint ----------
+  function showHint() {
+    const id = sel.w || sel.m; if (!id) return;
+    const w = byId.get(id);
+    let cost = '';
+    if (!R.hinted.has(id)) {
+      R.hinted.add(id); R.combo = 0; S.score = Math.max(0, S.score - 5); S.stats.hints++;
+      cost = 'Gợi ý: −5 điểm, combo về 0 (chỉ trừ 1 lần cho từ này).';
+      updateHud(); persistRound();
+    }
+    $('hint-word').textContent = w.word + (w.suru ? '（する）' : '');
+    $('hint-read').textContent = [w.reading, w.alt ? '(' + w.alt + ')' : '', w.en ? '· ' + w.en : '', w.pos].filter(Boolean).join(' ');
+    $('hint-mean').textContent = w.meaning;
+    const ex = w.examples.slice(0, 2);
+    $('hint-ex').innerHTML = ex.length ? ex.map(e => '<div class="ja">・' + esc(e.ja) + '</div><div class="vi">' + esc(e.vi) + '</div>').join('') : '<div class="vi">Không có câu ví dụ.</div>';
+    $('hint-note').textContent = w.note || '';
+    $('hint-note').style.display = w.note ? '' : 'none';
+    $('hint-cost').textContent = cost;
+    $('ov-hint').classList.add('show');
+  }
+  function closeHint() { $('ov-hint').classList.remove('show'); }
+
+  // ---------- start screen ----------
+  function renderStart() {
+    $('start-meta').textContent = THAOLE_META.count + ' từ · ' + LAST + ' bài';
+    const g = $('lesson-grid'); g.innerHTML = '';
+    LESSONS.forEach(l => {
+      const b = document.createElement('button');
+      b.className = 'lesson-btn' + (l === S.lesson ? ' current' : '') + (S.cleared[l] ? ' cleared' : '');
+      b.innerHTML = l + '<small>' + (l === S.lesson && S.done.length ? S.done.length + '/' + byLesson.get(l).length : byLesson.get(l).length + ' từ') + '</small>';
+      b.onclick = () => startLesson(l);
+      g.appendChild(b);
+    });
+    const hasProgress = S.round || S.done.length > 0;
+    $('resume-card').style.display = hasProgress ? '' : 'none';
+    if (hasProgress) {
+      $('resume-info').innerHTML = S.round && S.round.mode === 'review'
+        ? 'Đang ôn từ sai · <b>' + S.score + ' điểm</b>'
+        : 'Đang chơi <b>Bài ' + S.lesson + '</b> · ' + S.done.length + '/' + byLesson.get(S.lesson).length + ' từ · <b>' + S.score + ' điểm</b>';
+    }
+    $('st-best').textContent = S.best;
+    $('st-rounds').textContent = S.stats.rounds;
+    $('st-lessons').textContent = S.stats.lessonsCleared;
+    $('st-time').textContent = fmt(S.totalMs);
+    const n = wrongCount();
+    $('btn-review').textContent = '📝 Ôn từ sai (' + n + ')';
+    $('btn-review').disabled = n === 0;
+    $('btn-wronglist').disabled = n === 0;
+    if (n === 0) $('wrong-list').style.display = 'none';
+  }
+  function toggleWrongList() {
+    const el = $('wrong-list');
+    if (el.style.display !== 'none') { el.style.display = 'none'; return; }
+    const rows = Object.entries(S.wrong).filter(([, v]) => v.c > 0).sort((a, b) => b[1].c - a[1].c)
+      .map(([id, v]) => { const w = byId.get(+id); return '<div><span>' + esc(w.word) + (w.reading ? ' <small style="color:var(--text-light)">' + esc(w.reading) + '</small>' : '') + ' — ' + esc(w.short) + '</span><span class="cnt">×' + v.c + '</span></div>'; });
+    el.innerHTML = rows.join(''); el.style.display = '';
+  }
+  function startLesson(l) {
+    if (S.round && S.round.mode === 'lesson' && l === S.lesson) { resumeGame(); return; }
+    if (S.done.length && l !== S.lesson && !confirm('Bỏ tiến độ Bài ' + S.lesson + ' (' + S.done.length + ' từ) để chuyển sang Bài ' + l + '?')) return;
+    if (l === S.lesson && S.done.length && !confirm('Chơi lại Bài ' + l + ' từ đầu?')) return;
+    S.lesson = l; S.done = []; S.round = null; lastMode = 'lesson'; save();
+    buildLessonRound(); showScreen('scr-play'); renderRound(); startTimer();
+  }
+  function replayLesson(l) {
+    clearTimeout(autoTimer); $('ov-clear').classList.remove('show');
+    S.lesson = l; S.done = []; S.round = null; lastMode = 'lesson'; save();
+    buildLessonRound(); showScreen('scr-play'); renderRound(); startTimer();
+  }
+  function resumeGame() {
+    if (S.round) {
+      const r = S.round;
+      lastMode = r.mode;
+      if (r.mode === 'review') reviewQueue = shuffle(Object.keys(S.wrong).filter(k => S.wrong[k].c > 0).map(Number).filter(id => !r.ids.includes(id)));
+      makeRound(r.mode, r.ids, new Set(r.fillers), r);
+    } else { lastMode = 'lesson'; buildLessonRound(); }
+    showScreen('scr-play'); renderRound(); startTimer();
+  }
+  function startReview() {
+    reviewQueue = shuffle(Object.keys(S.wrong).filter(k => S.wrong[k].c > 0).map(Number));
+    if (!reviewQueue.length) return;
+    lastMode = 'review';
+    buildReviewRound(); showScreen('scr-play'); renderRound(); startTimer();
+  }
+  function goStart() {
+    clearTimeout(autoTimer); $('ov-clear').classList.remove('show'); closeHint();
+    if (R) { R.elapsed = stopTimer(); persistRound(); }
+    renderStart(); showScreen('scr-start');
+  }
+  function resetAll() {
+    if (!confirm('Xóa toàn bộ tiến độ, điểm và danh sách từ sai?')) return;
+    S = fresh(); R = null; save(); renderStart();
+  }
+
+  // ---------- expose ----------
+  Object.assign(window, { resumeGame, startReview, toggleWrongList, resetAll, showHint, closeHint, goStart, nextRound, replayLesson });
+
+  // ---------- boot ----------
+  const qs = new URLSearchParams(location.search);
+  renderStart();
+  if (qs.get('lesson') && byLesson.has(+qs.get('lesson'))) {
+    S.lesson = +qs.get('lesson'); S.done = []; S.round = null; save();
+    buildLessonRound(); showScreen('scr-play'); renderRound(); startTimer();
+  }
+})();
+</script>
+</body>
+</html>
